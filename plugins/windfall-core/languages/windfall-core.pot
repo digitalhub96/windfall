@@ -1,0 +1,4164 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Windfall Core\n"
+"POT-Creation-Date: 2023-01-14 10:44+0530\n"
+"PO-Revision-Date: 2023-01-14 10:44+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: windfall-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. translators: 1: Plugin name 2: Elementor
+#: elementor/em-setup.php:114
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: elementor/em-setup.php:115 elementor/em-setup.php:130
+#: elementor/em-setup.php:146
+msgid "Windfall Core"
+msgstr ""
+
+#: elementor/em-setup.php:116 elementor/em-setup.php:131
+msgid "Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: elementor/em-setup.php:129 elementor/em-setup.php:145
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: elementor/em-setup.php:147
+msgid "PHP"
+msgstr ""
+
+#: elementor/em-setup.php:172
+msgid "Windfall Theme : By VictorThemes"
+msgstr ""
+
+#: elementor/lib/lib.php:51 inc/theme-metabox.php:18
+msgid "No contact forms found"
+msgstr ""
+
+#: elementor/lib/shortcode.class.php:82 elementor/lib/shortcode.class.php:90
+#: elementor/widgets/windfall-add-shortcode.php:24
+#: elementor/widgets/windfall-add-shortcode.php:66
+msgid "Add Shortcode"
+msgstr ""
+
+#: elementor/lib/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: elementor/lib/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:24
+msgid "About"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:60
+msgid "About Options"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:67
+msgid "Upload About Image"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:73
+msgid "Set your about image."
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:79
+#: elementor/widgets/windfall-about.php:81
+msgid "About Title"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:82
+msgid "Type about title text here"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:89
+msgid "About Content"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:91
+msgid "Type about content here"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:101
+#: elementor/widgets/windfall-emergency.php:146
+#: elementor/widgets/windfall-gallery-infos.php:149
+#: elementor/widgets/windfall-list.php:82
+#: inc/custom-shortcodes/theme-shortcodes.php:400
+#: inc/custom-shortcodes/theme-shortcodes.php:458
+#: inc/custom-shortcodes/theme-shortcodes.php:490
+#: inc/custom-shortcodes/theme-shortcodes.php:564
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:109
+#: elementor/widgets/windfall-list.php:103
+msgid "Lists"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:113
+#: elementor/widgets/windfall-accordion.php:166
+#: elementor/widgets/windfall-address.php:132
+#: elementor/widgets/windfall-client.php:132
+#: elementor/widgets/windfall-gallery-infos.php:108
+#: elementor/widgets/windfall-gmap.php:265
+#: elementor/widgets/windfall-intro.php:104
+#: elementor/widgets/windfall-list.php:107
+#: elementor/widgets/windfall-pricing.php:137
+#: elementor/widgets/windfall-slider.php:196
+msgid "Item #1"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:124
+#: elementor/widgets/windfall-button.php:106
+#: elementor/widgets/windfall-callout.php:109
+#: elementor/widgets/windfall-callout.php:111
+#: elementor/widgets/windfall-download-item.php:111
+#: elementor/widgets/windfall-parallax-content.php:155
+#: elementor/widgets/windfall-parallax-content.php:194
+#: elementor/widgets/windfall-section-title.php:134
+#: elementor/widgets/windfall-services.php:209
+#: elementor/widgets/windfall-special-offer.php:226
+#: elementor/widgets/windfall-thankyou.php:86
+#: inc/custom-shortcodes/theme-shortcodes.php:106
+#: inc/custom-shortcodes/theme-shortcodes.php:287
+#: inc/widgets/brochure-widget.php:31 inc/widgets/windfall-contact.php:66
+msgid "Button Text"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:127
+#: elementor/widgets/windfall-download-item.php:114
+#: elementor/widgets/windfall-parallax-content.php:158
+#: elementor/widgets/windfall-parallax-content.php:197
+#: elementor/widgets/windfall-section-title.php:137
+#: elementor/widgets/windfall-slider.php:143
+#: elementor/widgets/windfall-slider.php:171
+#: elementor/widgets/windfall-special-offer.php:229
+#: elementor/widgets/windfall-thankyou.php:89
+msgid "Type your button text here"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:133
+#: elementor/widgets/windfall-blog.php:128
+#: elementor/widgets/windfall-button.php:114
+#: elementor/widgets/windfall-callout.php:119
+#: elementor/widgets/windfall-download-item.php:120
+#: elementor/widgets/windfall-parallax-content.php:164
+#: elementor/widgets/windfall-parallax-content.php:203
+#: elementor/widgets/windfall-section-title.php:143
+#: elementor/widgets/windfall-services.php:218
+#: elementor/widgets/windfall-special-offer.php:238
+#: elementor/widgets/windfall-thankyou.php:108
+#: inc/custom-shortcodes/theme-shortcodes.php:111
+#: inc/custom-shortcodes/theme-shortcodes.php:292
+#: inc/widgets/brochure-widget.php:36 inc/widgets/windfall-contact.php:71
+msgid "Button Link"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:135
+#: elementor/widgets/windfall-address.php:116
+#: elementor/widgets/windfall-client.php:112
+#: elementor/widgets/windfall-download-item.php:78
+#: elementor/widgets/windfall-download-item.php:122
+#: elementor/widgets/windfall-emergency.php:101
+#: elementor/widgets/windfall-features.php:145
+#: elementor/widgets/windfall-intro.php:87
+#: elementor/widgets/windfall-list.php:92
+#: elementor/widgets/windfall-offers.php:162
+#: elementor/widgets/windfall-parallax-content.php:166
+#: elementor/widgets/windfall-parallax-content.php:205
+#: elementor/widgets/windfall-section-title.php:145
+#: elementor/widgets/windfall-services-slider.php:113
+#: elementor/widgets/windfall-services.php:188
+#: elementor/widgets/windfall-slider.php:151
+#: elementor/widgets/windfall-slider.php:179
+#: elementor/widgets/windfall-social-icons.php:129
+#: elementor/widgets/windfall-special-offer.php:110
+#: elementor/widgets/windfall-special-offer.php:240
+#: elementor/widgets/windfall-thankyou.php:110
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:152
+#: elementor/widgets/windfall-accordion.php:227
+#: elementor/widgets/windfall-address.php:66
+#: elementor/widgets/windfall-address.php:146
+#: elementor/widgets/windfall-blog.php:107
+#: elementor/widgets/windfall-blog.php:240
+#: elementor/widgets/windfall-blog.php:392
+#: elementor/widgets/windfall-contact-form.php:86
+#: elementor/widgets/windfall-contact-form.php:151
+#: elementor/widgets/windfall-counter.php:73
+#: elementor/widgets/windfall-counter.php:124
+#: elementor/widgets/windfall-download-item.php:66
+#: elementor/widgets/windfall-download-item.php:214
+#: elementor/widgets/windfall-features.php:284
+#: elementor/widgets/windfall-gallery-infos.php:66
+#: elementor/widgets/windfall-gallery-infos.php:122
+#: elementor/widgets/windfall-gallery.php:225
+#: elementor/widgets/windfall-industries.php:67
+#: elementor/widgets/windfall-industries.php:198
+#: elementor/widgets/windfall-intro.php:66
+#: elementor/widgets/windfall-intro.php:118
+#: elementor/widgets/windfall-offers.php:258
+#: elementor/widgets/windfall-parallax-content.php:66
+#: elementor/widgets/windfall-parallax-content.php:239
+#: elementor/widgets/windfall-section-title.php:66
+#: elementor/widgets/windfall-section-title.php:159
+#: elementor/widgets/windfall-services-slider.php:593
+#: elementor/widgets/windfall-services.php:329
+#: elementor/widgets/windfall-slider.php:408
+#: elementor/widgets/windfall-special-offer.php:304
+#: elementor/widgets/windfall-special-offer.php:348
+#: elementor/widgets/windfall-testimonial-carousel.php:82
+#: elementor/widgets/windfall-thankyou.php:130 inc/custom-post-type.php:418
+#: inc/custom-post-type.php:483 inc/custom-post-type.php:552
+#: inc/widgets/brochure-widget.php:21 inc/widgets/windfall-contact.php:21
+#: inc/widgets/windfall-testimonial-widget.php:23
+#: inc/widgets/windfall-testimonial-widget.php:57
+#: inc/widgets/windfall-text-widget.php:21 inc/widgets/windfall-widgets.php:23
+#: inc/widgets/windfall-widgets.php:76
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:166
+#: elementor/widgets/windfall-about.php:195
+#: elementor/widgets/windfall-about.php:290
+#: elementor/widgets/windfall-about.php:318
+#: elementor/widgets/windfall-accordion.php:249
+#: elementor/widgets/windfall-accordion.php:279
+#: elementor/widgets/windfall-address.php:160
+#: elementor/widgets/windfall-address.php:186
+#: elementor/widgets/windfall-address.php:206
+#: elementor/widgets/windfall-address.php:285
+#: elementor/widgets/windfall-blockquote.php:169
+#: elementor/widgets/windfall-blog.php:413
+#: elementor/widgets/windfall-blog.php:430
+#: elementor/widgets/windfall-blog.php:458
+#: elementor/widgets/windfall-blog.php:499
+#: elementor/widgets/windfall-blog.php:526
+#: elementor/widgets/windfall-blog.php:571
+#: elementor/widgets/windfall-blog.php:588
+#: elementor/widgets/windfall-blog.php:617
+#: elementor/widgets/windfall-button.php:190
+#: elementor/widgets/windfall-button.php:231
+#: elementor/widgets/windfall-callout.php:158
+#: elementor/widgets/windfall-callout.php:243
+#: elementor/widgets/windfall-callout.php:289
+#: elementor/widgets/windfall-client.php:301
+#: elementor/widgets/windfall-client.php:352
+#: elementor/widgets/windfall-client.php:391
+#: elementor/widgets/windfall-client.php:474
+#: elementor/widgets/windfall-client.php:500
+#: elementor/widgets/windfall-contact-form.php:165
+#: elementor/widgets/windfall-contact-form.php:335
+#: elementor/widgets/windfall-contact-form.php:371
+#: elementor/widgets/windfall-counter.php:142
+#: elementor/widgets/windfall-counter.php:172
+#: elementor/widgets/windfall-counter.php:202
+#: elementor/widgets/windfall-counter.php:225
+#: elementor/widgets/windfall-download-item.php:151
+#: elementor/widgets/windfall-download-item.php:168
+#: elementor/widgets/windfall-download-item.php:235
+#: elementor/widgets/windfall-download-item.php:252
+#: elementor/widgets/windfall-download-item.php:280
+#: elementor/widgets/windfall-download-item.php:308
+#: elementor/widgets/windfall-download-item.php:335
+#: elementor/widgets/windfall-download-item.php:421
+#: elementor/widgets/windfall-download-item.php:449
+#: elementor/widgets/windfall-emergency.php:160
+#: elementor/widgets/windfall-emergency.php:194
+#: elementor/widgets/windfall-emergency.php:224
+#: elementor/widgets/windfall-emergency.php:249
+#: elementor/widgets/windfall-features.php:305
+#: elementor/widgets/windfall-features.php:322
+#: elementor/widgets/windfall-features.php:353
+#: elementor/widgets/windfall-gallery-infos.php:136
+#: elementor/widgets/windfall-gallery-infos.php:171
+#: elementor/widgets/windfall-gallery-infos.php:188
+#: elementor/widgets/windfall-gallery-infos.php:259
+#: elementor/widgets/windfall-gallery.php:448
+#: elementor/widgets/windfall-gallery.php:466
+#: elementor/widgets/windfall-gallery.php:585
+#: elementor/widgets/windfall-gallery.php:690
+#: elementor/widgets/windfall-gallery.php:716
+#: elementor/widgets/windfall-industries.php:213
+#: elementor/widgets/windfall-industries.php:241
+#: elementor/widgets/windfall-industries.php:275
+#: elementor/widgets/windfall-industries.php:293
+#: elementor/widgets/windfall-intro.php:139
+#: elementor/widgets/windfall-intro.php:156
+#: elementor/widgets/windfall-intro.php:268
+#: elementor/widgets/windfall-intro.php:285
+#: elementor/widgets/windfall-list.php:152
+#: elementor/widgets/windfall-list.php:169
+#: elementor/widgets/windfall-offers.php:279
+#: elementor/widgets/windfall-offers.php:296
+#: elementor/widgets/windfall-offers.php:383
+#: elementor/widgets/windfall-offers.php:446
+#: elementor/widgets/windfall-offers.php:464
+#: elementor/widgets/windfall-offers.php:545
+#: elementor/widgets/windfall-offers.php:573
+#: elementor/widgets/windfall-parallax-content.php:253
+#: elementor/widgets/windfall-parallax-content.php:297
+#: elementor/widgets/windfall-parallax-content.php:372
+#: elementor/widgets/windfall-parallax-content.php:400
+#: elementor/widgets/windfall-parallax-content.php:497
+#: elementor/widgets/windfall-parallax-content.php:535
+#: elementor/widgets/windfall-pricing.php:164
+#: elementor/widgets/windfall-pricing.php:201
+#: elementor/widgets/windfall-section-title.php:173
+#: elementor/widgets/windfall-section-title.php:235
+#: elementor/widgets/windfall-section-title.php:310
+#: elementor/widgets/windfall-section-title.php:348
+#: elementor/widgets/windfall-services-slider.php:365
+#: elementor/widgets/windfall-services-slider.php:404
+#: elementor/widgets/windfall-services-slider.php:552
+#: elementor/widgets/windfall-services-slider.php:580
+#: elementor/widgets/windfall-services-slider.php:614
+#: elementor/widgets/windfall-services-slider.php:631
+#: elementor/widgets/windfall-services-slider.php:662
+#: elementor/widgets/windfall-services-slider.php:696
+#: elementor/widgets/windfall-services-slider.php:714
+#: elementor/widgets/windfall-services.php:350
+#: elementor/widgets/windfall-services.php:367
+#: elementor/widgets/windfall-services.php:398
+#: elementor/widgets/windfall-services.php:472
+#: elementor/widgets/windfall-services.php:518
+#: elementor/widgets/windfall-slider.php:422
+#: elementor/widgets/windfall-slider.php:449
+#: elementor/widgets/windfall-slider.php:529
+#: elementor/widgets/windfall-slider.php:557
+#: elementor/widgets/windfall-slider.php:661
+#: elementor/widgets/windfall-slider.php:689
+#: elementor/widgets/windfall-slider.php:737
+#: elementor/widgets/windfall-slider.php:791
+#: elementor/widgets/windfall-slider.php:821
+#: elementor/widgets/windfall-social-icons.php:169
+#: elementor/widgets/windfall-social-icons.php:195
+#: elementor/widgets/windfall-social-icons.php:225
+#: elementor/widgets/windfall-special-offer.php:369
+#: elementor/widgets/windfall-special-offer.php:386
+#: elementor/widgets/windfall-special-offer.php:417
+#: elementor/widgets/windfall-special-offer.php:466
+#: elementor/widgets/windfall-special-offer.php:571
+#: elementor/widgets/windfall-special-offer.php:655
+#: elementor/widgets/windfall-special-offer.php:683
+#: elementor/widgets/windfall-team.php:183
+#: elementor/widgets/windfall-team.php:200
+#: elementor/widgets/windfall-team.php:229
+#: elementor/widgets/windfall-team.php:283
+#: elementor/widgets/windfall-team.php:300
+#: elementor/widgets/windfall-team.php:337
+#: elementor/widgets/windfall-team.php:354
+#: elementor/widgets/windfall-testimonial-carousel.php:344
+#: elementor/widgets/windfall-testimonial-carousel.php:410
+#: elementor/widgets/windfall-testimonial-carousel.php:428
+#: elementor/widgets/windfall-testimonial-carousel.php:460
+#: elementor/widgets/windfall-testimonial-carousel.php:486
+#: elementor/widgets/windfall-testimonial-carousel.php:537
+#: elementor/widgets/windfall-testimonial-carousel.php:577
+#: elementor/widgets/windfall-thankyou.php:144
+#: elementor/widgets/windfall-thankyou.php:182
+#: elementor/widgets/windfall-thankyou.php:299
+#: elementor/widgets/windfall-thankyou.php:327
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:180
+#: elementor/widgets/windfall-accordion.php:109
+#: elementor/widgets/windfall-address.php:172
+#: elementor/widgets/windfall-callout.php:66
+#: elementor/widgets/windfall-callout.php:134
+#: elementor/widgets/windfall-download-item.php:90
+#: elementor/widgets/windfall-download-item.php:266
+#: elementor/widgets/windfall-features.php:338
+#: elementor/widgets/windfall-gallery-infos.php:75
+#: elementor/widgets/windfall-gmap.php:252
+#: elementor/widgets/windfall-industries.php:89
+#: elementor/widgets/windfall-industries.php:226
+#: elementor/widgets/windfall-parallax-content.php:76
+#: elementor/widgets/windfall-parallax-content.php:283
+#: elementor/widgets/windfall-section-title.php:76
+#: elementor/widgets/windfall-section-title.php:221
+#: elementor/widgets/windfall-services-slider.php:647
+#: elementor/widgets/windfall-services.php:383
+#: elementor/widgets/windfall-slider.php:435
+#: elementor/widgets/windfall-special-offer.php:402
+#: inc/custom-shortcodes/theme-shortcodes.php:136
+#: inc/widgets/brochure-widget.php:26
+#: inc/widgets/windfall-accordion-widget.php:49
+#: inc/widgets/windfall-text-widget.php:26
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:187
+#: elementor/widgets/windfall-accordion.php:234
+#: elementor/widgets/windfall-client.php:293
+#: elementor/widgets/windfall-features.php:345
+#: elementor/widgets/windfall-industries.php:205
+#: elementor/widgets/windfall-industries.php:233
+#: elementor/widgets/windfall-offers.php:375
+#: elementor/widgets/windfall-services-slider.php:544
+#: elementor/widgets/windfall-services-slider.php:572
+#: elementor/widgets/windfall-services-slider.php:654
+#: elementor/widgets/windfall-services.php:390
+#: elementor/widgets/windfall-social-icons.php:161
+#: elementor/widgets/windfall-special-offer.php:409
+#: elementor/widgets/windfall-special-offer.php:458
+#: elementor/widgets/windfall-special-offer.php:496
+#: elementor/widgets/windfall-special-offer.php:524
+msgid "Typography"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:205
+#: elementor/widgets/windfall-about.php:261
+#: elementor/widgets/windfall-button.php:161
+#: elementor/widgets/windfall-callout.php:214
+#: elementor/widgets/windfall-contact-form.php:175
+#: elementor/widgets/windfall-contact-form.php:306
+#: elementor/widgets/windfall-download-item.php:190
+#: elementor/widgets/windfall-download-item.php:392
+#: elementor/widgets/windfall-features.php:196
+#: elementor/widgets/windfall-offers.php:516
+#: elementor/widgets/windfall-parallax-content.php:343
+#: elementor/widgets/windfall-parallax-content.php:468
+#: elementor/widgets/windfall-section-title.php:281
+#: elementor/widgets/windfall-services.php:271
+#: elementor/widgets/windfall-services.php:443
+#: elementor/widgets/windfall-slider.php:494
+#: elementor/widgets/windfall-slider.php:626
+#: elementor/widgets/windfall-special-offer.php:437
+#: elementor/widgets/windfall-special-offer.php:626
+#: elementor/widgets/windfall-testimonial-carousel.php:312
+#: elementor/widgets/windfall-thankyou.php:223
+#: elementor/widgets/windfall-thankyou.php:270
+msgid "Padding"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:216
+#: elementor/widgets/windfall-list.php:134
+msgid "Bullet Color"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:229
+#: elementor/widgets/windfall-button.php:24
+#: elementor/widgets/windfall-button.php:129
+#: elementor/widgets/windfall-callout.php:182
+#: elementor/widgets/windfall-contact-form.php:263
+#: elementor/widgets/windfall-download-item.php:360
+#: elementor/widgets/windfall-offers.php:481
+#: elementor/widgets/windfall-section-title.php:249
+#: elementor/widgets/windfall-services.php:411
+#: elementor/widgets/windfall-special-offer.php:594
+#: elementor/widgets/windfall-thankyou.php:238
+msgid "Button"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:243
+#: elementor/widgets/windfall-accordion.php:188
+#: elementor/widgets/windfall-blockquote.php:101
+#: elementor/widgets/windfall-button.php:143
+#: elementor/widgets/windfall-callout.php:196
+#: elementor/widgets/windfall-contact-form.php:277
+#: elementor/widgets/windfall-download-item.php:374
+#: elementor/widgets/windfall-emergency.php:122
+#: elementor/widgets/windfall-offers.php:498
+#: elementor/widgets/windfall-parallax-content.php:126
+#: elementor/widgets/windfall-parallax-content.php:325
+#: elementor/widgets/windfall-parallax-content.php:450
+#: elementor/widgets/windfall-section-title.php:112
+#: elementor/widgets/windfall-section-title.php:263
+#: elementor/widgets/windfall-services.php:425
+#: elementor/widgets/windfall-slider.php:476
+#: elementor/widgets/windfall-slider.php:608
+#: elementor/widgets/windfall-social-icons.php:273
+#: elementor/widgets/windfall-special-offer.php:608
+#: elementor/widgets/windfall-thankyou.php:252
+msgid "Width"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:272
+#: elementor/widgets/windfall-accordion.php:214
+#: elementor/widgets/windfall-blog.php:343
+#: elementor/widgets/windfall-blog.php:379
+#: elementor/widgets/windfall-button.php:172
+#: elementor/widgets/windfall-callout.php:225
+#: elementor/widgets/windfall-contact-form.php:317
+#: elementor/widgets/windfall-download-item.php:403
+#: elementor/widgets/windfall-offers.php:527
+#: elementor/widgets/windfall-parallax-content.php:354
+#: elementor/widgets/windfall-parallax-content.php:479
+#: elementor/widgets/windfall-section-title.php:292
+#: elementor/widgets/windfall-services.php:311
+#: elementor/widgets/windfall-services.php:454
+#: elementor/widgets/windfall-slider.php:508
+#: elementor/widgets/windfall-slider.php:640
+#: elementor/widgets/windfall-special-offer.php:637
+#: elementor/widgets/windfall-thankyou.php:281
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:284
+#: elementor/widgets/windfall-accordion.php:243
+#: elementor/widgets/windfall-address.php:279
+#: elementor/widgets/windfall-blog.php:407
+#: elementor/widgets/windfall-blog.php:493
+#: elementor/widgets/windfall-blog.php:565
+#: elementor/widgets/windfall-button.php:184
+#: elementor/widgets/windfall-callout.php:237
+#: elementor/widgets/windfall-client.php:346
+#: elementor/widgets/windfall-client.php:468
+#: elementor/widgets/windfall-contact-form.php:329
+#: elementor/widgets/windfall-download-item.php:145
+#: elementor/widgets/windfall-download-item.php:229
+#: elementor/widgets/windfall-download-item.php:302
+#: elementor/widgets/windfall-download-item.php:415
+#: elementor/widgets/windfall-emergency.php:188
+#: elementor/widgets/windfall-features.php:299
+#: elementor/widgets/windfall-gallery-infos.php:165
+#: elementor/widgets/windfall-gallery.php:442
+#: elementor/widgets/windfall-gallery.php:506
+#: elementor/widgets/windfall-gallery.php:579
+#: elementor/widgets/windfall-gallery.php:684
+#: elementor/widgets/windfall-industries.php:269
+#: elementor/widgets/windfall-intro.php:133
+#: elementor/widgets/windfall-intro.php:180
+#: elementor/widgets/windfall-intro.php:262
+#: elementor/widgets/windfall-list.php:146
+#: elementor/widgets/windfall-offers.php:273
+#: elementor/widgets/windfall-offers.php:440
+#: elementor/widgets/windfall-offers.php:539
+#: elementor/widgets/windfall-parallax-content.php:366
+#: elementor/widgets/windfall-parallax-content.php:491
+#: elementor/widgets/windfall-section-title.php:304
+#: elementor/widgets/windfall-services-slider.php:359
+#: elementor/widgets/windfall-services-slider.php:481
+#: elementor/widgets/windfall-services-slider.php:608
+#: elementor/widgets/windfall-services-slider.php:690
+#: elementor/widgets/windfall-services.php:344
+#: elementor/widgets/windfall-services.php:466
+#: elementor/widgets/windfall-slider.php:523
+#: elementor/widgets/windfall-slider.php:655
+#: elementor/widgets/windfall-slider.php:785
+#: elementor/widgets/windfall-social-icons.php:189
+#: elementor/widgets/windfall-special-offer.php:363
+#: elementor/widgets/windfall-special-offer.php:649
+#: elementor/widgets/windfall-team.php:177
+#: elementor/widgets/windfall-team.php:277
+#: elementor/widgets/windfall-team.php:331
+#: elementor/widgets/windfall-testimonial-carousel.php:404
+#: elementor/widgets/windfall-testimonial-carousel.php:531
+#: elementor/widgets/windfall-testimonial-carousel.php:655
+#: elementor/widgets/windfall-thankyou.php:293
+msgid "Normal"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:300
+#: elementor/widgets/windfall-about.php:328
+#: elementor/widgets/windfall-accordion.php:259
+#: elementor/widgets/windfall-accordion.php:289
+#: elementor/widgets/windfall-blockquote.php:159
+#: elementor/widgets/windfall-blog.php:325
+#: elementor/widgets/windfall-blog.php:509
+#: elementor/widgets/windfall-button.php:200
+#: elementor/widgets/windfall-button.php:241
+#: elementor/widgets/windfall-callout.php:253
+#: elementor/widgets/windfall-callout.php:299
+#: elementor/widgets/windfall-client.php:363
+#: elementor/widgets/windfall-client.php:402
+#: elementor/widgets/windfall-contact-form.php:109
+#: elementor/widgets/windfall-contact-form.php:345
+#: elementor/widgets/windfall-contact-form.php:381
+#: elementor/widgets/windfall-download-item.php:318
+#: elementor/widgets/windfall-download-item.php:345
+#: elementor/widgets/windfall-download-item.php:431
+#: elementor/widgets/windfall-download-item.php:459
+#: elementor/widgets/windfall-emergency.php:204
+#: elementor/widgets/windfall-features.php:207
+#: elementor/widgets/windfall-gallery.php:596
+#: elementor/widgets/windfall-offers.php:555
+#: elementor/widgets/windfall-offers.php:583
+#: elementor/widgets/windfall-parallax-content.php:382
+#: elementor/widgets/windfall-parallax-content.php:410
+#: elementor/widgets/windfall-parallax-content.php:507
+#: elementor/widgets/windfall-parallax-content.php:545
+#: elementor/widgets/windfall-pricing.php:174
+#: elementor/widgets/windfall-section-title.php:320
+#: elementor/widgets/windfall-section-title.php:358
+#: elementor/widgets/windfall-services-slider.php:376
+#: elementor/widgets/windfall-services-slider.php:415
+#: elementor/widgets/windfall-services-slider.php:487
+#: elementor/widgets/windfall-services-slider.php:513
+#: elementor/widgets/windfall-services.php:293
+#: elementor/widgets/windfall-services.php:482
+#: elementor/widgets/windfall-services.php:528
+#: elementor/widgets/windfall-slider.php:539
+#: elementor/widgets/windfall-slider.php:567
+#: elementor/widgets/windfall-slider.php:671
+#: elementor/widgets/windfall-slider.php:699
+#: elementor/widgets/windfall-slider.php:802
+#: elementor/widgets/windfall-social-icons.php:205
+#: elementor/widgets/windfall-special-offer.php:476
+#: elementor/widgets/windfall-special-offer.php:581
+#: elementor/widgets/windfall-special-offer.php:665
+#: elementor/widgets/windfall-special-offer.php:693
+#: elementor/widgets/windfall-team.php:239
+#: elementor/widgets/windfall-testimonial-carousel.php:302
+#: elementor/widgets/windfall-testimonial-carousel.php:367
+#: elementor/widgets/windfall-testimonial-carousel.php:548
+#: elementor/widgets/windfall-testimonial-carousel.php:588
+#: elementor/widgets/windfall-testimonial-carousel.php:661
+#: elementor/widgets/windfall-testimonial-carousel.php:687
+#: elementor/widgets/windfall-thankyou.php:309
+#: elementor/widgets/windfall-thankyou.php:337
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:312
+#: elementor/widgets/windfall-address.php:296
+#: elementor/widgets/windfall-blog.php:424
+#: elementor/widgets/windfall-blog.php:520
+#: elementor/widgets/windfall-blog.php:582
+#: elementor/widgets/windfall-button.php:225
+#: elementor/widgets/windfall-callout.php:283
+#: elementor/widgets/windfall-client.php:385
+#: elementor/widgets/windfall-contact-form.php:365
+#: elementor/widgets/windfall-download-item.php:162
+#: elementor/widgets/windfall-download-item.php:246
+#: elementor/widgets/windfall-download-item.php:329
+#: elementor/widgets/windfall-download-item.php:443
+#: elementor/widgets/windfall-emergency.php:218
+#: elementor/widgets/windfall-features.php:316
+#: elementor/widgets/windfall-gallery-infos.php:182
+#: elementor/widgets/windfall-gallery.php:460
+#: elementor/widgets/windfall-gallery.php:523
+#: elementor/widgets/windfall-gallery.php:609
+#: elementor/widgets/windfall-industries.php:287
+#: elementor/widgets/windfall-intro.php:150
+#: elementor/widgets/windfall-intro.php:197
+#: elementor/widgets/windfall-intro.php:279
+#: elementor/widgets/windfall-list.php:163
+#: elementor/widgets/windfall-offers.php:290
+#: elementor/widgets/windfall-offers.php:458
+#: elementor/widgets/windfall-offers.php:567
+#: elementor/widgets/windfall-parallax-content.php:394
+#: elementor/widgets/windfall-parallax-content.php:529
+#: elementor/widgets/windfall-section-title.php:342
+#: elementor/widgets/windfall-services-slider.php:398
+#: elementor/widgets/windfall-services-slider.php:625
+#: elementor/widgets/windfall-services-slider.php:708
+#: elementor/widgets/windfall-services.php:361
+#: elementor/widgets/windfall-services.php:512
+#: elementor/widgets/windfall-slider.php:551
+#: elementor/widgets/windfall-slider.php:683
+#: elementor/widgets/windfall-slider.php:815
+#: elementor/widgets/windfall-social-icons.php:219
+#: elementor/widgets/windfall-special-offer.php:380
+#: elementor/widgets/windfall-special-offer.php:677
+#: elementor/widgets/windfall-team.php:194
+#: elementor/widgets/windfall-team.php:294
+#: elementor/widgets/windfall-team.php:348
+#: elementor/widgets/windfall-testimonial-carousel.php:422
+#: elementor/widgets/windfall-testimonial-carousel.php:571
+#: elementor/widgets/windfall-thankyou.php:321
+msgid "Hover"
+msgstr ""
+
+#: elementor/widgets/windfall-about.php:338
+#: elementor/widgets/windfall-button.php:210
+#: elementor/widgets/windfall-button.php:251
+#: elementor/widgets/windfall-callout.php:263
+#: elementor/widgets/windfall-callout.php:309
+#: elementor/widgets/windfall-contact-form.php:119
+#: elementor/widgets/windfall-download-item.php:201
+#: elementor/widgets/windfall-download-item.php:469
+#: elementor/widgets/windfall-gallery-infos.php:221
+#: elementor/widgets/windfall-gallery.php:421
+#: elementor/widgets/windfall-offers.php:406
+#: elementor/widgets/windfall-offers.php:593
+#: elementor/widgets/windfall-parallax-content.php:420
+#: elementor/widgets/windfall-parallax-content.php:517
+#: elementor/widgets/windfall-parallax-content.php:555
+#: elementor/widgets/windfall-section-title.php:330
+#: elementor/widgets/windfall-section-title.php:368
+#: elementor/widgets/windfall-services.php:492
+#: elementor/widgets/windfall-services.php:538
+#: elementor/widgets/windfall-slider.php:577
+#: elementor/widgets/windfall-slider.php:709
+#: elementor/widgets/windfall-special-offer.php:703
+#: elementor/widgets/windfall-team.php:149
+#: elementor/widgets/windfall-testimonial-carousel.php:377
+#: elementor/widgets/windfall-thankyou.php:213
+#: elementor/widgets/windfall-thankyou.php:347
+msgid "Border Color"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:24
+msgid "FAQ Accordion"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:60
+msgid "Accordion Options"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:66
+msgid "Accordion Style"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:69
+#: elementor/widgets/windfall-contact-form.php:69
+#: elementor/widgets/windfall-emergency.php:69
+#: elementor/widgets/windfall-features.php:70
+#: elementor/widgets/windfall-list.php:69
+#: elementor/widgets/windfall-offers.php:69
+#: elementor/widgets/windfall-services.php:70
+#: elementor/widgets/windfall-social-icons.php:70
+#: elementor/widgets/windfall-testimonial-carousel.php:71
+msgid "Style One"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:70
+#: elementor/widgets/windfall-contact-form.php:70
+#: elementor/widgets/windfall-emergency.php:70
+#: elementor/widgets/windfall-features.php:71
+#: elementor/widgets/windfall-offers.php:70
+#: elementor/widgets/windfall-services.php:71
+#: elementor/widgets/windfall-testimonial-carousel.php:72
+msgid "Style Two"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:71
+#: elementor/widgets/windfall-emergency.php:71
+#: elementor/widgets/windfall-testimonial-carousel.php:73
+msgid "Style Three"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:80
+msgid "Active Accordion Number"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:91
+msgid "FAQ Accordion Item"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:99
+#: elementor/widgets/windfall-accordion.php:101
+msgid "Accordion Title"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:102
+msgid "Type title here"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:110
+#: elementor/widgets/windfall-callout.php:67
+#: elementor/widgets/windfall-features.php:157
+#: elementor/widgets/windfall-industries.php:90
+#: elementor/widgets/windfall-offers.php:174
+#: elementor/widgets/windfall-services-slider.php:125
+#: elementor/widgets/windfall-services.php:200
+msgid "your content text"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:111
+#: elementor/widgets/windfall-callout.php:68
+#: elementor/widgets/windfall-features.php:158
+#: elementor/widgets/windfall-industries.php:91
+#: elementor/widgets/windfall-offers.php:175
+#: elementor/widgets/windfall-services-slider.php:126
+#: elementor/widgets/windfall-services.php:201
+msgid "Type your content here"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:119
+msgid "Question Text"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:120
+msgid "Was this answer helpful?"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:128
+msgid "Yes Text"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:129
+#: elementor/widgets/windfall-blog.php:282
+#: elementor/widgets/windfall-client.php:145
+#: elementor/widgets/windfall-client.php:196
+#: elementor/widgets/windfall-client.php:207
+#: elementor/widgets/windfall-client.php:218
+#: elementor/widgets/windfall-client.php:230
+#: elementor/widgets/windfall-client.php:241
+#: elementor/widgets/windfall-client.php:252
+#: elementor/widgets/windfall-client.php:263
+#: elementor/widgets/windfall-client.php:274
+#: elementor/widgets/windfall-gallery.php:190
+#: elementor/widgets/windfall-gallery.php:302
+#: elementor/widgets/windfall-gallery.php:313
+#: elementor/widgets/windfall-gallery.php:324
+#: elementor/widgets/windfall-gallery.php:336
+#: elementor/widgets/windfall-gallery.php:347
+#: elementor/widgets/windfall-gallery.php:358
+#: elementor/widgets/windfall-gallery.php:369
+#: elementor/widgets/windfall-gallery.php:380
+#: elementor/widgets/windfall-gallery.php:391
+#: elementor/widgets/windfall-gmap.php:174
+#: elementor/widgets/windfall-gmap.php:184
+#: elementor/widgets/windfall-gmap.php:194
+#: elementor/widgets/windfall-industries.php:165
+#: elementor/widgets/windfall-offers.php:245
+#: elementor/widgets/windfall-parallax-content.php:187
+#: elementor/widgets/windfall-services-slider.php:174
+#: elementor/widgets/windfall-services-slider.php:227
+#: elementor/widgets/windfall-services-slider.php:238
+#: elementor/widgets/windfall-services-slider.php:249
+#: elementor/widgets/windfall-services-slider.php:261
+#: elementor/widgets/windfall-services-slider.php:272
+#: elementor/widgets/windfall-services-slider.php:283
+#: elementor/widgets/windfall-services-slider.php:294
+#: elementor/widgets/windfall-services-slider.php:305
+#: elementor/widgets/windfall-services-slider.php:316
+#: elementor/widgets/windfall-services.php:232
+#: elementor/widgets/windfall-slider.php:262
+#: elementor/widgets/windfall-slider.php:273
+#: elementor/widgets/windfall-slider.php:284
+#: elementor/widgets/windfall-slider.php:296
+#: elementor/widgets/windfall-slider.php:307
+#: elementor/widgets/windfall-slider.php:318
+#: elementor/widgets/windfall-slider.php:351
+#: elementor/widgets/windfall-special-offer.php:331
+#: elementor/widgets/windfall-team.php:78
+#: elementor/widgets/windfall-testimonial-carousel.php:203
+#: elementor/widgets/windfall-testimonial-carousel.php:214
+#: elementor/widgets/windfall-testimonial-carousel.php:225
+#: elementor/widgets/windfall-testimonial-carousel.php:237
+#: elementor/widgets/windfall-testimonial-carousel.php:248
+#: elementor/widgets/windfall-testimonial-carousel.php:259
+#: elementor/widgets/windfall-testimonial-carousel.php:270
+#: elementor/widgets/windfall-testimonial-carousel.php:281
+msgid "Yes"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:137
+msgid "Yes Link"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:145
+msgid "No Text"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:146
+#: elementor/widgets/windfall-blog.php:283
+#: elementor/widgets/windfall-client.php:146
+#: elementor/widgets/windfall-client.php:197
+#: elementor/widgets/windfall-client.php:208
+#: elementor/widgets/windfall-client.php:219
+#: elementor/widgets/windfall-client.php:231
+#: elementor/widgets/windfall-client.php:242
+#: elementor/widgets/windfall-client.php:253
+#: elementor/widgets/windfall-client.php:264
+#: elementor/widgets/windfall-client.php:275
+#: elementor/widgets/windfall-gallery.php:191
+#: elementor/widgets/windfall-gallery.php:303
+#: elementor/widgets/windfall-gallery.php:314
+#: elementor/widgets/windfall-gallery.php:325
+#: elementor/widgets/windfall-gallery.php:337
+#: elementor/widgets/windfall-gallery.php:348
+#: elementor/widgets/windfall-gallery.php:359
+#: elementor/widgets/windfall-gallery.php:370
+#: elementor/widgets/windfall-gallery.php:381
+#: elementor/widgets/windfall-gallery.php:392
+#: elementor/widgets/windfall-gmap.php:175
+#: elementor/widgets/windfall-gmap.php:185
+#: elementor/widgets/windfall-gmap.php:195
+#: elementor/widgets/windfall-industries.php:166
+#: elementor/widgets/windfall-offers.php:246
+#: elementor/widgets/windfall-parallax-content.php:188
+#: elementor/widgets/windfall-services-slider.php:175
+#: elementor/widgets/windfall-services-slider.php:228
+#: elementor/widgets/windfall-services-slider.php:239
+#: elementor/widgets/windfall-services-slider.php:250
+#: elementor/widgets/windfall-services-slider.php:262
+#: elementor/widgets/windfall-services-slider.php:273
+#: elementor/widgets/windfall-services-slider.php:284
+#: elementor/widgets/windfall-services-slider.php:295
+#: elementor/widgets/windfall-services-slider.php:306
+#: elementor/widgets/windfall-services-slider.php:317
+#: elementor/widgets/windfall-services.php:233
+#: elementor/widgets/windfall-slider.php:263
+#: elementor/widgets/windfall-slider.php:274
+#: elementor/widgets/windfall-slider.php:285
+#: elementor/widgets/windfall-slider.php:297
+#: elementor/widgets/windfall-slider.php:308
+#: elementor/widgets/windfall-slider.php:319
+#: elementor/widgets/windfall-slider.php:352
+#: elementor/widgets/windfall-special-offer.php:332
+#: elementor/widgets/windfall-team.php:79
+#: elementor/widgets/windfall-testimonial-carousel.php:204
+#: elementor/widgets/windfall-testimonial-carousel.php:215
+#: elementor/widgets/windfall-testimonial-carousel.php:226
+#: elementor/widgets/windfall-testimonial-carousel.php:238
+#: elementor/widgets/windfall-testimonial-carousel.php:249
+#: elementor/widgets/windfall-testimonial-carousel.php:260
+#: elementor/widgets/windfall-testimonial-carousel.php:271
+#: elementor/widgets/windfall-testimonial-carousel.php:282
+msgid "No"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:154
+msgid "No Link"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:162
+msgid "FAQ Accordion Items"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:181
+#: elementor/widgets/windfall-blog.php:318
+#: elementor/widgets/windfall-gallery-infos.php:204
+#: elementor/widgets/windfall-industries.php:178
+#: elementor/widgets/windfall-thankyou.php:196
+msgid "Section"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:207
+#: elementor/widgets/windfall-blog.php:336
+#: elementor/widgets/windfall-blog.php:372
+#: elementor/widgets/windfall-callout.php:274
+#: elementor/widgets/windfall-callout.php:320
+#: elementor/widgets/windfall-client.php:375
+#: elementor/widgets/windfall-client.php:414
+#: elementor/widgets/windfall-client.php:485
+#: elementor/widgets/windfall-client.php:511
+#: elementor/widgets/windfall-contact-form.php:211
+#: elementor/widgets/windfall-contact-form.php:356
+#: elementor/widgets/windfall-contact-form.php:392
+#: elementor/widgets/windfall-gallery.php:701
+#: elementor/widgets/windfall-gallery.php:727
+#: elementor/widgets/windfall-services-slider.php:388
+#: elementor/widgets/windfall-services-slider.php:427
+#: elementor/widgets/windfall-services-slider.php:498
+#: elementor/widgets/windfall-services-slider.php:524
+#: elementor/widgets/windfall-services.php:304
+#: elementor/widgets/windfall-services.php:503
+#: elementor/widgets/windfall-services.php:549
+#: elementor/widgets/windfall-testimonial-carousel.php:561
+#: elementor/widgets/windfall-testimonial-carousel.php:600
+#: elementor/widgets/windfall-testimonial-carousel.php:672
+#: elementor/widgets/windfall-testimonial-carousel.php:698
+msgid "Border"
+msgstr ""
+
+#: elementor/widgets/windfall-accordion.php:273
+#: elementor/widgets/windfall-client.php:494
+#: elementor/widgets/windfall-gallery.php:710
+#: elementor/widgets/windfall-services-slider.php:507
+#: elementor/widgets/windfall-testimonial-carousel.php:681
+msgid "Active"
+msgstr ""
+
+#: elementor/widgets/windfall-add-shortcode.php:60
+msgid "Shortcode Settings"
+msgstr ""
+
+#: elementor/widgets/windfall-add-shortcode.php:69
+msgid "Add your shortcode here"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:24
+msgid "Address Info"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:60
+msgid "Address Info Options"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:68
+#: elementor/widgets/windfall-address.php:98
+msgid "Enter item title here"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:75
+#: inc/widgets/windfall-contact.php:61
+msgid "Address"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:77
+msgid "Enter address text here"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:86
+#: elementor/widgets/windfall-address.php:199
+#: elementor/widgets/windfall-counter.php:64
+#: elementor/widgets/windfall-counter.php:214
+#: elementor/widgets/windfall-download-item.php:100
+#: elementor/widgets/windfall-download-item.php:294
+#: elementor/widgets/windfall-emergency.php:112
+#: elementor/widgets/windfall-emergency.php:238
+#: elementor/widgets/windfall-features.php:123
+#: elementor/widgets/windfall-features.php:219
+#: elementor/widgets/windfall-gallery-infos.php:93
+#: elementor/widgets/windfall-gallery-infos.php:234
+#: elementor/widgets/windfall-intro.php:75
+#: elementor/widgets/windfall-intro.php:218
+#: elementor/widgets/windfall-offers.php:113
+#: elementor/widgets/windfall-offers.php:121
+#: elementor/widgets/windfall-services.php:124
+#: elementor/widgets/windfall-services.php:132
+#: elementor/widgets/windfall-social-icons.php:181
+#: elementor/widgets/windfall-thankyou.php:67
+#: elementor/widgets/windfall-thankyou.php:157
+#: inc/custom-shortcodes/theme-shortcodes.php:381
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:96
+msgid "List Title"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:105
+#: inc/custom-shortcodes/theme-shortcodes.php:405
+#: inc/custom-shortcodes/theme-shortcodes.php:569
+msgid "Link Text"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:107
+msgid "Enter item link text here"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:114
+msgid "Text Link"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:128
+msgid "Mail Info"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:216
+#: elementor/widgets/windfall-counter.php:235
+#: elementor/widgets/windfall-emergency.php:259
+#: inc/custom-shortcodes/theme-shortcodes.php:185
+#: inc/custom-shortcodes/theme-shortcodes.php:313
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:234
+#: elementor/widgets/windfall-features.php:244
+#: elementor/widgets/windfall-intro.php:243
+msgid "Icon Width"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:254
+msgid "Links"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:268
+#: inc/custom-shortcodes/theme-shortcodes.php:178
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/windfall-address.php:302
+#: elementor/widgets/windfall-gallery.php:615
+msgid "Hover Color"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:24
+#: elementor/widgets/windfall-blockquote.php:125
+msgid "Blockquote"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:60
+#: elementor/widgets/windfall-download-item.php:60
+#: elementor/widgets/windfall-emergency.php:60
+#: elementor/widgets/windfall-parallax-content.php:60
+#: elementor/widgets/windfall-section-title.php:60
+msgid "Settings"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:66
+msgid "Blockquote Text"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:69
+msgid "Type your blockquote text here"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:76
+#: elementor/widgets/windfall-button.php:79
+#: elementor/widgets/windfall-features.php:95
+#: elementor/widgets/windfall-industries.php:138
+#: elementor/widgets/windfall-parallax-content.php:101
+#: elementor/widgets/windfall-section-title.php:87
+#: elementor/widgets/windfall-services.php:92
+#: elementor/widgets/windfall-slider.php:68
+#: elementor/widgets/windfall-social-icons.php:89
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:80
+#: elementor/widgets/windfall-button.php:83
+#: elementor/widgets/windfall-features.php:100
+#: elementor/widgets/windfall-industries.php:142
+#: elementor/widgets/windfall-parallax-content.php:105
+#: elementor/widgets/windfall-section-title.php:91
+#: elementor/widgets/windfall-services.php:97
+#: elementor/widgets/windfall-slider.php:72
+#: elementor/widgets/windfall-social-icons.php:93
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:84
+#: elementor/widgets/windfall-button.php:87
+#: elementor/widgets/windfall-features.php:104
+#: elementor/widgets/windfall-industries.php:146
+#: elementor/widgets/windfall-parallax-content.php:109
+#: elementor/widgets/windfall-section-title.php:95
+#: elementor/widgets/windfall-services.php:101
+#: elementor/widgets/windfall-slider.php:76
+#: elementor/widgets/windfall-social-icons.php:97
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:88
+#: elementor/widgets/windfall-button.php:91
+#: elementor/widgets/windfall-features.php:108
+#: elementor/widgets/windfall-industries.php:150
+#: elementor/widgets/windfall-parallax-content.php:113
+#: elementor/widgets/windfall-section-title.php:99
+#: elementor/widgets/windfall-services.php:105
+#: elementor/widgets/windfall-slider.php:80
+#: elementor/widgets/windfall-social-icons.php:101
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:139
+#: elementor/widgets/windfall-blockquote.php:149
+msgid "Left Border Color"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:179
+#: elementor/widgets/windfall-section-title.php:183
+msgid "Section Bottom space"
+msgstr ""
+
+#: elementor/widgets/windfall-blockquote.php:197
+msgid "Content Top space"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:24
+msgid "Blog"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:64
+#: elementor/widgets/windfall-gallery.php:63
+msgid "No ID's found"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:70
+msgid "Blog Options"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:76
+msgid "Blog Style"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:79
+msgid "Style One(List)"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:80
+msgid "Style Two(Grid)"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:81
+msgid "Style Three(Simple List)"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:84
+msgid "Select your blog style."
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:90
+#: elementor/widgets/windfall-gallery.php:105
+#: elementor/widgets/windfall-team.php:87
+msgid "Columns"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:97
+msgid "Column Two"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:98
+#: elementor/widgets/windfall-team.php:92
+msgid "Column Three"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:101
+msgid "Select your blog column."
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:110
+#: elementor/widgets/windfall-industries.php:70
+#: elementor/widgets/windfall-testimonial-carousel.php:85
+msgid "Type title text here"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:119
+msgid "More News Button Text"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:121
+#: elementor/widgets/windfall-button.php:107
+#: elementor/widgets/windfall-callout.php:112
+#: elementor/widgets/windfall-services.php:211
+msgid "Type btn text here"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:143
+#: elementor/widgets/windfall-blog.php:477
+msgid "Meta's Options"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:149
+#: elementor/widgets/windfall-blog.php:364
+#: elementor/widgets/windfall-offers.php:112
+#: elementor/widgets/windfall-services.php:123 inc/custom-post-type.php:419
+#: inc/custom-post-type.php:484 inc/custom-post-type.php:553
+#: inc/custom-shortcodes/theme-shortcodes.php:380
+#: inc/custom-shortcodes/theme-shortcodes.php:394
+#: inc/custom-shortcodes/theme-shortcodes.php:431 inc/theme-metabox.php:435
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:151
+#: elementor/widgets/windfall-blog.php:165
+#: elementor/widgets/windfall-blog.php:179
+#: elementor/widgets/windfall-blog.php:190
+#: elementor/widgets/windfall-blog.php:293
+#: elementor/widgets/windfall-gallery.php:146
+#: elementor/widgets/windfall-gallery.php:176
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:152
+#: elementor/widgets/windfall-blog.php:166
+#: elementor/widgets/windfall-blog.php:180
+#: elementor/widgets/windfall-blog.php:191
+#: elementor/widgets/windfall-blog.php:294
+#: elementor/widgets/windfall-gallery.php:147
+#: elementor/widgets/windfall-gallery.php:177
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:163 inc/custom-post-type.php:486
+msgid "Category"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:177
+#: elementor/widgets/windfall-blog.php:241
+#: elementor/widgets/windfall-gallery.php:226
+#: elementor/widgets/windfall-special-offer.php:305
+#: elementor/widgets/windfall-team.php:130
+#: elementor/widgets/windfall-testimonial-carousel.php:148
+#: inc/custom-post-type.php:422 inc/custom-post-type.php:488
+#: inc/custom-post-type.php:557 inc/widgets/windfall-testimonial-widget.php:60
+#: inc/widgets/windfall-widgets.php:79
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:188
+#: elementor/widgets/windfall-blog.php:239
+#: elementor/widgets/windfall-gallery.php:224
+#: elementor/widgets/windfall-special-offer.php:303
+#: elementor/widgets/windfall-team.php:128
+#: elementor/widgets/windfall-testimonial-carousel.php:146
+#: inc/widgets/windfall-testimonial-widget.php:56
+#: inc/widgets/windfall-widgets.php:75
+msgid "Author"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:204
+#: elementor/widgets/windfall-gallery.php:201
+msgid "Listing Options"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:210
+msgid "Blog Limit"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:216
+#: elementor/widgets/windfall-client.php:169
+#: elementor/widgets/windfall-gallery.php:129
+#: elementor/widgets/windfall-gallery.php:275
+#: elementor/widgets/windfall-services-slider.php:200
+#: elementor/widgets/windfall-special-offer.php:274
+#: elementor/widgets/windfall-testimonial-carousel.php:176
+msgid "Enter the number of items to show."
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:222
+#: elementor/widgets/windfall-gallery.php:207
+#: elementor/widgets/windfall-special-offer.php:283
+#: elementor/widgets/windfall-team.php:110
+#: elementor/widgets/windfall-testimonial-carousel.php:129
+#: inc/custom-post-type.php:421 inc/custom-post-type.php:487
+#: inc/custom-post-type.php:556
+msgid "Order"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:225
+#: elementor/widgets/windfall-gallery.php:210
+#: elementor/widgets/windfall-special-offer.php:286
+msgid "Asending"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:226
+#: elementor/widgets/windfall-gallery.php:211
+#: elementor/widgets/windfall-special-offer.php:287
+msgid "Desending"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:234
+#: elementor/widgets/windfall-gallery.php:219
+#: elementor/widgets/windfall-special-offer.php:298
+#: elementor/widgets/windfall-team.php:122
+#: elementor/widgets/windfall-testimonial-carousel.php:141
+msgid "Order By"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:237
+#: elementor/widgets/windfall-gallery.php:222
+#: elementor/widgets/windfall-special-offer.php:301
+#: elementor/widgets/windfall-team.php:126
+#: elementor/widgets/windfall-testimonial-carousel.php:144
+#: inc/widgets/windfall-testimonial-widget.php:54
+#: inc/widgets/windfall-widgets.php:73
+msgid "None"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:238
+#: elementor/widgets/windfall-gallery.php:223
+#: elementor/widgets/windfall-special-offer.php:302
+#: elementor/widgets/windfall-team.php:127
+#: elementor/widgets/windfall-testimonial-carousel.php:145
+#: inc/widgets/windfall-testimonial-widget.php:55
+#: inc/widgets/windfall-widgets.php:74
+msgid "ID"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:249
+#: elementor/widgets/windfall-gallery.php:234
+#: elementor/widgets/windfall-special-offer.php:316
+#: elementor/widgets/windfall-team.php:139
+msgid "Certain Categories?"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:259
+msgid "Certain ID's?"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:269
+msgid "Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:274
+msgid "How many words you want in short content paragraph."
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:280
+#: elementor/widgets/windfall-team.php:76
+msgid "Disable Image Resize?"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:291
+#: elementor/widgets/windfall-gallery.php:174
+msgid "Pagination"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:302
+msgid "Read More Button Text"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:305
+#: elementor/widgets/windfall-blog.php:790
+#: elementor/widgets/windfall-blog.php:794
+#: elementor/widgets/windfall-industries.php:101
+#: elementor/widgets/windfall-offers.php:185
+#: elementor/widgets/windfall-services-slider.php:136
+msgid "Read More"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:306
+msgid "Type text here"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:355
+#: elementor/widgets/windfall-contact-form.php:130
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:444
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:470
+msgid "Meta's"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:536
+#: elementor/widgets/windfall-gallery.php:626
+#: elementor/widgets/windfall-slider.php:832
+#: elementor/widgets/windfall-social-icons.php:235
+msgid "Background Hover Color"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:549
+msgid "Author Options"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:601
+msgid "Date & Read Options"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:660
+msgid "By "
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:871
+msgid "0"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:871 inc/theme-metabox.php:524
+msgid "1"
+msgstr ""
+
+#: elementor/widgets/windfall-blog.php:871
+msgid "%"
+msgstr ""
+
+#: elementor/widgets/windfall-button.php:60
+#: elementor/widgets/windfall-callout.php:102
+msgid "Button Options"
+msgstr ""
+
+#: elementor/widgets/windfall-button.php:66
+msgid "Button Style"
+msgstr ""
+
+#: elementor/widgets/windfall-button.php:69
+msgid "Style One (Normal)"
+msgstr ""
+
+#: elementor/widgets/windfall-button.php:70
+msgid "Style Two (Border Button)"
+msgstr ""
+
+#: elementor/widgets/windfall-button.php:73
+msgid "Select your Button style."
+msgstr ""
+
+#: elementor/widgets/windfall-button.php:104
+msgid "Button/Link Text"
+msgstr ""
+
+#: elementor/widgets/windfall-callout.php:24
+msgid "Callout"
+msgstr ""
+
+#: elementor/widgets/windfall-callout.php:60
+msgid "Callout Options"
+msgstr ""
+
+#: elementor/widgets/windfall-callout.php:77
+msgid "Content Width"
+msgstr ""
+
+#: elementor/widgets/windfall-callout.php:141
+msgid "Callout Background Color"
+msgstr ""
+
+#: elementor/widgets/windfall-callout.php:168
+msgid "Content Padding"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:24
+msgid "Client Carousel"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:58
+msgid "Client Options"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:64
+msgid "Client Carousel Title"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:67
+msgid "Trusted Partners"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:68
+msgid "Type your client carousel title here"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:76
+msgid "Logo title"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:79
+#: elementor/widgets/windfall-features.php:136
+#: elementor/widgets/windfall-gallery-infos.php:69
+#: elementor/widgets/windfall-intro.php:69
+#: elementor/widgets/windfall-offers.php:153
+#: elementor/widgets/windfall-services-slider.php:104
+#: elementor/widgets/windfall-services.php:179
+msgid "Type item title here"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:85
+msgid "Logo Image"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:97
+msgid "Link Type"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:100
+msgid "Normal Link"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:101
+msgid "Popup"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:110
+#: elementor/widgets/windfall-emergency.php:173
+#: elementor/widgets/windfall-industries.php:254
+#: elementor/widgets/windfall-intro.php:85
+#: inc/custom-shortcodes/theme-shortcodes.php:141
+#: inc/custom-shortcodes/theme-shortcodes.php:410
+#: inc/custom-shortcodes/theme-shortcodes.php:463
+#: inc/custom-shortcodes/theme-shortcodes.php:495
+#: inc/custom-shortcodes/theme-shortcodes.php:574
+#: inc/widgets/windfall-intro-widget.php:44
+msgid "Link"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:128
+msgid "Client Logos"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:143
+msgid "Retina Image?"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:148
+msgid "If you want to resize your retina image, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:156
+#: elementor/widgets/windfall-gallery.php:259
+#: elementor/widgets/windfall-services-slider.php:187
+#: elementor/widgets/windfall-slider.php:246
+#: elementor/widgets/windfall-testimonial-carousel.php:160
+msgid "Carousel Options"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:163
+#: elementor/widgets/windfall-gallery.php:269
+#: elementor/widgets/windfall-services-slider.php:194
+#: elementor/widgets/windfall-testimonial-carousel.php:170
+msgid "How many items?"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:175
+#: elementor/widgets/windfall-gallery.php:281
+#: elementor/widgets/windfall-services-slider.php:206
+#: elementor/widgets/windfall-testimonial-carousel.php:182
+msgid "Space Between Items"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:186
+#: elementor/widgets/windfall-gallery.php:292
+#: elementor/widgets/windfall-services-slider.php:217
+#: elementor/widgets/windfall-slider.php:253
+#: elementor/widgets/windfall-testimonial-carousel.php:193
+msgid "Auto Play Timeout"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:194
+#: elementor/widgets/windfall-gallery.php:300
+#: elementor/widgets/windfall-services-slider.php:225
+#: elementor/widgets/windfall-slider.php:260
+#: elementor/widgets/windfall-testimonial-carousel.php:201
+msgid "Disable Loop?"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:199
+#: elementor/widgets/windfall-gallery.php:305
+#: elementor/widgets/windfall-services-slider.php:230
+#: elementor/widgets/windfall-slider.php:265
+#: elementor/widgets/windfall-testimonial-carousel.php:206
+msgid "Continuously moving carousel, if enabled."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:205
+#: elementor/widgets/windfall-client.php:427
+#: elementor/widgets/windfall-gallery.php:311
+#: elementor/widgets/windfall-gallery.php:643
+#: elementor/widgets/windfall-services-slider.php:236
+#: elementor/widgets/windfall-services-slider.php:440
+#: elementor/widgets/windfall-slider.php:271
+#: elementor/widgets/windfall-testimonial-carousel.php:212
+#: elementor/widgets/windfall-testimonial-carousel.php:614
+msgid "Dots"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:210
+#: elementor/widgets/windfall-gallery.php:316
+#: elementor/widgets/windfall-services-slider.php:241
+#: elementor/widgets/windfall-slider.php:276
+#: elementor/widgets/windfall-testimonial-carousel.php:217
+msgid "If you want Carousel Dots, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:216
+#: elementor/widgets/windfall-client.php:314
+#: elementor/widgets/windfall-gallery.php:322
+#: elementor/widgets/windfall-gallery.php:544
+#: elementor/widgets/windfall-services-slider.php:247
+#: elementor/widgets/windfall-services-slider.php:327
+#: elementor/widgets/windfall-slider.php:282
+#: elementor/widgets/windfall-slider.php:750
+#: elementor/widgets/windfall-testimonial-carousel.php:223
+#: elementor/widgets/windfall-testimonial-carousel.php:499
+msgid "Navigation"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:221
+#: elementor/widgets/windfall-gallery.php:327
+#: elementor/widgets/windfall-services-slider.php:252
+#: elementor/widgets/windfall-slider.php:287
+#: elementor/widgets/windfall-testimonial-carousel.php:228
+msgid "If you want Carousel Navigation, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:228
+#: elementor/widgets/windfall-gallery.php:334
+#: elementor/widgets/windfall-services-slider.php:259
+#: elementor/widgets/windfall-slider.php:294
+#: elementor/widgets/windfall-testimonial-carousel.php:235
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:233
+#: elementor/widgets/windfall-gallery.php:339
+#: elementor/widgets/windfall-services-slider.php:264
+#: elementor/widgets/windfall-slider.php:299
+#: elementor/widgets/windfall-testimonial-carousel.php:240
+msgid "If you want to start Carousel automatically, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:239
+#: elementor/widgets/windfall-gallery.php:356
+#: elementor/widgets/windfall-services-slider.php:270
+#: elementor/widgets/windfall-testimonial-carousel.php:246
+msgid "Animate Out"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:244
+#: elementor/widgets/windfall-gallery.php:361
+#: elementor/widgets/windfall-services-slider.php:275
+#: elementor/widgets/windfall-testimonial-carousel.php:251
+msgid "CSS3 animation out."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:250
+#: elementor/widgets/windfall-gallery.php:367
+#: elementor/widgets/windfall-services-slider.php:292
+#: elementor/widgets/windfall-slider.php:349
+#: elementor/widgets/windfall-testimonial-carousel.php:257
+msgid "Disable Mouse Drag?"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:255
+#: elementor/widgets/windfall-gallery.php:372
+#: elementor/widgets/windfall-services-slider.php:297
+#: elementor/widgets/windfall-slider.php:354
+#: elementor/widgets/windfall-testimonial-carousel.php:262
+msgid "If you want to disable Mouse Drag, check it."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:261
+#: elementor/widgets/windfall-gallery.php:378
+#: elementor/widgets/windfall-services-slider.php:303
+#: elementor/widgets/windfall-testimonial-carousel.php:268
+msgid "Auto Width"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:266
+#: elementor/widgets/windfall-gallery.php:383
+#: elementor/widgets/windfall-services-slider.php:308
+#: elementor/widgets/windfall-testimonial-carousel.php:273
+msgid "Adjust Auto Width automatically for each carousel items."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:272
+#: elementor/widgets/windfall-gallery.php:389
+#: elementor/widgets/windfall-services-slider.php:314
+#: elementor/widgets/windfall-testimonial-carousel.php:279
+msgid "Auto Height"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:277
+#: elementor/widgets/windfall-gallery.php:394
+#: elementor/widgets/windfall-services-slider.php:319
+#: elementor/widgets/windfall-testimonial-carousel.php:284
+msgid "Adjust Auto Height automatically for each carousel items."
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:286
+#: elementor/widgets/windfall-section-title.php:24
+#: elementor/widgets/windfall-section-title.php:69
+#: elementor/widgets/windfall-services-slider.php:66
+#: elementor/widgets/windfall-services-slider.php:68
+#: elementor/widgets/windfall-services-slider.php:537
+msgid "Section Title"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:325
+#: elementor/widgets/windfall-client.php:438
+#: elementor/widgets/windfall-gallery.php:654
+#: elementor/widgets/windfall-services-slider.php:338
+#: elementor/widgets/windfall-services-slider.php:451
+#: elementor/widgets/windfall-social-icons.php:251
+#: elementor/widgets/windfall-testimonial-carousel.php:510
+#: elementor/widgets/windfall-testimonial-carousel.php:625
+msgid "Size"
+msgstr ""
+
+#: elementor/widgets/windfall-client.php:456
+#: elementor/widgets/windfall-contact-form.php:295
+#: elementor/widgets/windfall-gallery.php:672
+#: elementor/widgets/windfall-services-slider.php:469
+#: elementor/widgets/windfall-services.php:282
+#: elementor/widgets/windfall-social-icons.php:295
+#: elementor/widgets/windfall-testimonial-carousel.php:643
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:24
+msgid "Contact Form"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:60
+msgid "Form Options"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:66
+msgid "Form Style"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:78
+msgid "Select contact form"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:89
+#: elementor/widgets/windfall-counter.php:76
+msgid "Default title"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:90
+#: elementor/widgets/windfall-download-item.php:70
+#: elementor/widgets/windfall-parallax-content.php:70
+#: elementor/widgets/windfall-section-title.php:70
+msgid "Type your title here"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:99
+#: elementor/widgets/windfall-download-item.php:137
+#: elementor/widgets/windfall-gallery-infos.php:211
+#: elementor/widgets/windfall-intro.php:172
+#: elementor/widgets/windfall-intro.php:186
+#: elementor/widgets/windfall-intro.php:203
+#: elementor/widgets/windfall-special-offer.php:427
+#: elementor/widgets/windfall-thankyou.php:203 inc/theme-metabox.php:270
+#: inc/theme-metabox.php:280
+msgid "Background"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:137
+msgid "Box Padding"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:188
+msgid "Form"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:226
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: elementor/widgets/windfall-contact-form.php:243
+#: inc/custom-shortcodes/theme-shortcodes.php:55
+#: inc/custom-shortcodes/theme-shortcodes.php:345
+#: inc/custom-shortcodes/theme-shortcodes.php:529
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:24
+msgid "Counter"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:58
+msgid "Counter Options"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:77
+msgid "Type your counter title here"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:83
+#: elementor/widgets/windfall-counter.php:154
+msgid "Value"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:88
+#: elementor/widgets/windfall-counter.php:98
+msgid "Type your counter value here"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:94
+#: elementor/widgets/windfall-counter.php:184
+msgid "Value In"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:97
+msgid "+"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:104
+msgid "Counter Delay"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:107
+msgid "Type your counter delay. Eg:1,2,10 etc.,"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:113
+msgid "Counter Time"
+msgstr ""
+
+#: elementor/widgets/windfall-counter.php:116
+msgid "Type your counter time. Eg:1000,2000 etc.,"
+msgstr ""
+
+#: elementor/widgets/windfall-download-item.php:24
+#: elementor/widgets/windfall-download-item.php:69
+msgid "Download Item"
+msgstr ""
+
+#: elementor/widgets/windfall-download-item.php:76
+#: elementor/widgets/windfall-industries.php:77
+#: elementor/widgets/windfall-special-offer.php:108
+msgid "Title Link"
+msgstr ""
+
+#: elementor/widgets/windfall-download-item.php:93
+#: elementor/widgets/windfall-parallax-content.php:79
+#: elementor/widgets/windfall-section-title.php:79
+msgid "This is Content text"
+msgstr ""
+
+#: elementor/widgets/windfall-download-item.php:94
+#: elementor/widgets/windfall-parallax-content.php:80
+#: elementor/widgets/windfall-section-title.php:80
+msgid "Type your content text here"
+msgstr ""
+
+#: elementor/widgets/windfall-download-item.php:183
+#: elementor/widgets/windfall-features.php:186
+msgid "Item"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:24
+msgid "Emergency"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:66
+msgid "Emergency Style"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:79
+msgid "Emergency Text"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:82
+msgid "Emergency Content"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:83
+msgid "Type your emergency text here"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:89
+#: elementor/widgets/windfall-emergency.php:92
+msgid "Emergency Link Text"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:93
+msgid "Type your emergency link text here"
+msgstr ""
+
+#: elementor/widgets/windfall-emergency.php:99
+msgid "Emergency Link"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:24
+msgid "Features"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:60
+msgid "Features Options"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:67
+msgid "Features Style"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:79
+#: elementor/widgets/windfall-offers.php:78
+#: elementor/widgets/windfall-services.php:79
+msgid "Column Option"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:82
+#: elementor/widgets/windfall-offers.php:81
+#: elementor/widgets/windfall-services.php:82
+msgid "3 Column"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:83
+#: elementor/widgets/windfall-offers.php:83
+#: elementor/widgets/windfall-services.php:84
+msgid "4 Column"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:84
+#: elementor/widgets/windfall-offers.php:82
+#: elementor/widgets/windfall-services.php:83
+msgid "2 Column"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:133
+#: elementor/widgets/windfall-features.php:171
+#: elementor/widgets/windfall-services-slider.php:101
+msgid "Features Title"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:137
+#: elementor/widgets/windfall-offers.php:154
+#: elementor/widgets/windfall-services-slider.php:105
+msgid "Access Conversations"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:143
+#: elementor/widgets/windfall-services-slider.php:111
+msgid "Features Title Link"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:156
+#: elementor/widgets/windfall-services-slider.php:124
+msgid "Features Content"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:167
+#: elementor/widgets/windfall-services-slider.php:157
+msgid "Features Items"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:226
+#: elementor/widgets/windfall-gallery-infos.php:241
+#: elementor/widgets/windfall-intro.php:225
+#: elementor/widgets/windfall-thankyou.php:164
+msgid "Icon Font Size"
+msgstr ""
+
+#: elementor/widgets/windfall-features.php:262
+msgid "Icon Bottom Space"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery-infos.php:24
+msgid "Gallery Infos"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery-infos.php:58
+msgid "Gallery Infos Options"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery-infos.php:78
+msgid "Type multiple information text by separting \"Enter\""
+msgstr ""
+
+#: elementor/widgets/windfall-gallery-infos.php:84
+msgid "Content Link"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery-infos.php:87
+msgid ""
+"Type multiple information link by separting \"Enter\" (Make equality of link "
+"and link)"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery-infos.php:104
+msgid "Gallery Infos Items"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:24
+msgid "Gallery"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:69 inc/theme-metabox.php:395
+msgid "Gallery Options"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:75
+msgid "Gallery Style"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:78
+msgid "Style One(Grid)"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:79
+msgid "Style Two(Slider)"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:82
+msgid "Select your gallery style."
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:88
+msgid "Gallery Caption"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:95
+msgid "Without Caption"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:96
+msgid "With Caption"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:99
+msgid "Select Gallery Caption Type."
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:112
+msgid "Three Column"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:113
+msgid "Two Column"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:114
+msgid "Four Column"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:117
+msgid "Select your gallery column."
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:123
+#: elementor/widgets/windfall-special-offer.php:268
+msgid "Number Control"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:138
+msgid "Enable/Disable Options"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:144
+#: elementor/widgets/windfall-gallery.php:404
+msgid "Filter"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:158
+msgid "Filter Type"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:161
+msgid "Normal Filter"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:162
+msgid "Ajax Filter"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:168
+msgid "Select your filter type."
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:188
+#: elementor/widgets/windfall-industries.php:163
+#: elementor/widgets/windfall-offers.php:243
+#: elementor/widgets/windfall-services-slider.php:172
+#: elementor/widgets/windfall-special-offer.php:329
+msgid "Disable Image Resizer"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:193
+msgid ""
+"If you want to disable image resize, enable it.(Only for style one and three)"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:244
+msgid "Specific ID?"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:345
+#: elementor/widgets/windfall-services-slider.php:281
+msgid "Animate In"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:350
+#: elementor/widgets/windfall-services-slider.php:286
+msgid "CSS3 animation in."
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:431
+msgid "Active Border Color"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:485
+#: elementor/widgets/windfall-parallax-content.php:219
+#: elementor/widgets/windfall-services.php:230
+msgid "Overlay"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:495
+#: elementor/widgets/windfall-offers.php:393
+#: elementor/widgets/windfall-parallax-content.php:226
+#: inc/theme-metabox.php:297
+msgid "Overlay Color"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:512
+#: elementor/widgets/windfall-gallery.php:529
+#: inc/custom-shortcodes/theme-shortcodes.php:196
+#: inc/custom-shortcodes/theme-shortcodes.php:203
+#: inc/custom-shortcodes/theme-shortcodes.php:324
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:555
+#: elementor/widgets/windfall-slider.php:761 inc/theme-metabox.php:513
+msgid "Position"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:806
+msgid "All"
+msgstr ""
+
+#: elementor/widgets/windfall-gallery.php:824
+msgid "Show All"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:24
+msgid "Google map"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:59
+msgid "Map ( API KEY ) Options"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:65
+msgid "Enter Map ID"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:68
+msgid "Type map id here"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:69
+msgid ""
+"Enter google map ID. If you're using this in <strong>Map Tab</strong> "
+"shortcode, enter unique ID for each map tabs. Else leave it as blank. "
+"<strong>Note : This should same as Tab ID in Map Tabs shortcode.</strong>"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:75
+msgid "Google Map API Key"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:78
+msgid "Type map api key here"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:79
+msgid ""
+"New Google Maps usage policy dictates that everyone using the maps should "
+"register for a free API key. <br />Please create a key for \"Google Static "
+"Maps API\" and \"Google Maps Embed API\" using the <a href=\"https://console."
+"developers.google.com/project\" target=\"_blank\">Google Developers Console</"
+"a>.<br /> Or follow this step links : <br /><a href=\"https://console."
+"developers.google.com/flows/enableapi?"
+"apiid=maps_embed_backend&keyType=CLIENT_SIDE&reusekey=true\" "
+"target=\"_blank\">1. Step One</a> <br /><a href=\"https://console.developers."
+"google.com/flows/enableapi?"
+"apiid=static_maps_backend&keyType=CLIENT_SIDE&reusekey=true\" "
+"target=\"_blank\">2. Step Two</a><br /> If you still receive errors, please "
+"check following link : <a href=\"https://churchthemes.com/2016/07/15/page-"
+"didnt-load-google-maps-correctly/\" target=\"_blank\">How to Fix?</a>"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:87
+msgid "Map Settings"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:93
+msgid "Google Map Type"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:96
+msgid "ROADMAP"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:97
+msgid "SATELLITE"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:98
+msgid "HYBRID"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:99
+msgid "TERRAIN"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:107
+msgid "Google Map Style"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:114
+msgid "Select Style"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:115
+msgid "Gray Scale"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:116
+msgid "Mid Night"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:117
+msgid "Black"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:118
+msgid "Blue Water"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:119
+msgid "Light Dream"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:120
+msgid "Pale Dawn"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:121
+msgid "Apple Maps-esque"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:122
+msgid "Blue Essence"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:123
+msgid "Unsaturated Browns"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:124
+msgid "Paper"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:125
+msgid "Midnight Commander"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:126
+msgid "Light Monochrome"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:127
+msgid "Flat Map"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:128
+msgid "Retro"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:129
+msgid "becomeadinosaur"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:130
+msgid "Neutral Blue"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:131
+msgid "Subtle Grayscale"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:132
+msgid "Ultra Light with Labels"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:133
+msgid "Shades of Grey"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:141
+msgid "Zoom"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:152
+msgid "Common Marker"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:157
+msgid "Upload your custom marker."
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:166 inc/theme-metabox.php:349
+msgid "Enable & Disable"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:172
+msgid "Scroll Wheel"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:182
+msgid "Street View Control"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:192
+msgid "Map Type Control"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:205
+msgid "Map Pins"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:213
+msgid "Latitude"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:216
+msgid ""
+"Find Latitude : <a href=\"http://www.latlong.net/\" "
+"target=\"_blank\">latlong.net</a>"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:222
+msgid "Longitude"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:225
+msgid ""
+"Find Longitude : <a href=\"http://www.latlong.net/\" "
+"target=\"_blank\">latlong.net</a>"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:231
+msgid "Custom Marker"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:236
+msgid ""
+"Upload your unique map marker if your want to differentiate from others."
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:244
+msgid "Heading"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:261
+msgid "Locations"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:278
+msgid "Gmap Options"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:285
+msgid "Height"
+msgstr ""
+
+#: elementor/widgets/windfall-gmap.php:302
+msgid "Custom Css"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:24
+msgid "Industries"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:60
+msgid "Industry Item"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:69
+#: elementor/widgets/windfall-testimonial-carousel.php:84
+msgid "Title Text"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:99
+#: elementor/widgets/windfall-offers.php:183
+#: elementor/widgets/windfall-services-slider.php:134
+msgid "Read More Text"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:102
+#: elementor/widgets/windfall-offers.php:186
+#: elementor/widgets/windfall-offers.php:224
+#: elementor/widgets/windfall-services-slider.php:137
+msgid "Type read more text here"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:109
+#: elementor/widgets/windfall-offers.php:193
+#: elementor/widgets/windfall-offers.php:422
+#: elementor/widgets/windfall-services-slider.php:144
+#: elementor/widgets/windfall-services-slider.php:675
+msgid "Read More Link"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:121
+msgid "Featured Image"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:129
+#: elementor/widgets/windfall-offers.php:335
+#: inc/widgets/windfall-contact.php:31 inc/widgets/windfall-intro-widget.php:49
+msgid "Icon Image"
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:168
+#: elementor/widgets/windfall-offers.php:248
+#: elementor/widgets/windfall-services-slider.php:177
+#: elementor/widgets/windfall-special-offer.php:334
+msgid "If you want to disable image resize, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-industries.php:185
+msgid "Background Overlay Color"
+msgstr ""
+
+#: elementor/widgets/windfall-intro.php:24
+msgid "Intro"
+msgstr ""
+
+#: elementor/widgets/windfall-intro.php:58
+msgid "Intro Options"
+msgstr ""
+
+#: elementor/widgets/windfall-intro.php:100
+msgid "Intro Items"
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:24
+msgid "List"
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:60
+msgid "List Options"
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:66
+msgid "List Style"
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:70
+msgid "Style Two (Check List)"
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:73
+msgid "Select your list style."
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:90
+msgid "List Text Link"
+msgstr ""
+
+#: elementor/widgets/windfall-list.php:120
+msgid "List Text"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:24
+msgid "Offers"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:60
+msgid "Offers Options"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:66
+msgid "Offers Style"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:97
+#: elementor/widgets/windfall-services-slider.php:89
+msgid "Upload Service Image"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:103
+msgid "Set your offer featured image."
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:109
+msgid "Icon Image Type"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:129
+#: elementor/widgets/windfall-offers.php:144
+msgid "Icon will display only in style one."
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:135
+#: elementor/widgets/windfall-services.php:146
+msgid "Upload Icon Image"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:150
+msgid "Offers Title"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:160
+msgid "Offers Title Link"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:173
+msgid "Offers Content"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:206
+msgid "Offers Items"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:210
+#: elementor/widgets/windfall-services-slider.php:161
+msgid "Service Item"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:221
+msgid "All Service Text"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:223
+msgid "Discover All Service"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:231
+msgid "All Service Link"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:311
+msgid "Offer Item Option"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:321
+msgid "Image Border Radius"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:346
+msgid "Icon Image Width"
+msgstr ""
+
+#: elementor/widgets/windfall-offers.php:368
+#: elementor/widgets/windfall-services-slider.php:76
+#: elementor/widgets/windfall-services-slider.php:78
+#: elementor/widgets/windfall-services-slider.php:565
+msgid "Section Content"
+msgstr ""
+
+#: elementor/widgets/windfall-parallax-content.php:24
+#: elementor/widgets/windfall-parallax-content.php:69
+msgid "Parallax Content"
+msgstr ""
+
+#: elementor/widgets/windfall-parallax-content.php:86
+msgid "Parallax Image"
+msgstr ""
+
+#: elementor/widgets/windfall-parallax-content.php:185
+msgid "Border Button?"
+msgstr ""
+
+#: elementor/widgets/windfall-parallax-content.php:263
+#: elementor/widgets/windfall-section-title.php:201
+msgid "Title Bottom space"
+msgstr ""
+
+#: elementor/widgets/windfall-parallax-content.php:311
+#: elementor/widgets/windfall-slider.php:134
+#: elementor/widgets/windfall-slider.php:462
+msgid "Button One"
+msgstr ""
+
+#: elementor/widgets/windfall-parallax-content.php:436
+#: elementor/widgets/windfall-slider.php:162
+#: elementor/widgets/windfall-slider.php:594
+msgid "Button Two"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:24
+msgid "Pricing"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:60
+msgid "Pricing Options"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:66
+#: elementor/widgets/windfall-services.php:180
+#: elementor/widgets/windfall-services.php:246
+msgid "Service Title"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:69
+msgid "Service"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:70
+msgid "Type your service title here"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:76
+msgid "Price Title"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:79
+msgid "Average Price"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:80
+msgid "Type your price title here"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:86
+msgid "Duration Title"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:89
+#: elementor/widgets/windfall-pricing.php:115
+msgid "Duration"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:90
+msgid "Type your duration title here"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:99
+msgid "Service Name"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:107
+msgid "Price"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:123
+msgid "Duration Icon"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:133
+msgid "Pricings"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:150
+msgid "Pricing Table Title"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:187
+msgid "Pricing Items"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:211
+msgid "Odd Row Background Color"
+msgstr ""
+
+#: elementor/widgets/windfall-pricing.php:221
+msgid "Even Row Background Color"
+msgstr ""
+
+#: elementor/widgets/windfall-services-slider.php:24
+msgid "Services Slider"
+msgstr ""
+
+#: elementor/widgets/windfall-services-slider.php:60
+msgid "Services Slider Options"
+msgstr ""
+
+#: elementor/widgets/windfall-services-slider.php:69
+msgid "Type section title text here"
+msgstr ""
+
+#: elementor/widgets/windfall-services-slider.php:79
+msgid "Type section content here"
+msgstr ""
+
+#: elementor/widgets/windfall-services-slider.php:95
+msgid "Set your service featured image."
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:24
+msgid "Services"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:60
+msgid "Services Options"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:67
+msgid "Services Style"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:120
+msgid "Icon Type"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:155
+msgid "Set your icon image."
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:161
+msgid "Upload Hover Icon Image"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:170
+msgid "Set your hover icon image.(It Will apply only for style one)"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:176
+msgid "Services Title"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:186
+msgid "Services Title Link"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:199
+msgid "Services Content"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:235
+msgid "If you want overlay, enable it.(It will apply for style two only)"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:242
+msgid "Services Items"
+msgstr ""
+
+#: elementor/widgets/windfall-services.php:261
+msgid "Box"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:24 inc/theme-metabox.php:413
+msgid "Slider"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:60
+msgid "Slider Options"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:93
+msgid "Slider Image"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:103
+msgid "Content Alignment"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:106
+msgid "Title - Content"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:107
+msgid "Content - Title"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:115
+msgid "Slider title"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:118
+msgid "Type slide title here"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:124
+msgid "Slider content"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:127
+msgid "Type slide content here"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:140
+msgid "Button One Text"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:149
+msgid "Button One Link"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:168
+msgid "Button Two Text"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:177
+msgid "Button Two Link"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:192
+msgid "Slider Items"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:209
+msgid "Slider Animation"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:215
+msgid "Title Entrance Animation"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:222
+msgid "Content Entrance Animation"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:229
+msgid "Button One Entrance Animation"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:236
+msgid "Button Two Entrance Animation"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:305
+msgid "Disable Autoplay on Interaction"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:310
+msgid "If you want to disable autoplay on interaction, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:316
+msgid "Pagination Dots Clickable?"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:321
+msgid "If you want pagination dots clickable, enable it."
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:327
+msgid "Auto Play Speed"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:334
+msgid "Slider Effect"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:337
+msgid "Fade"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:338
+msgid "Slide"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:339
+msgid "Cube"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:340
+msgid "Coverflow"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:343
+msgid "Select your slider navigation style."
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:362
+msgid "General"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:369
+msgid "Slider Height"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:387
+msgid "Bottom Space"
+msgstr ""
+
+#: elementor/widgets/windfall-slider.php:726
+msgid "Dot"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:24
+#: elementor/widgets/windfall-social-icons.php:142
+#: elementor/widgets/windfall-team.php:316 inc/theme-metabox.php:597
+msgid "Social Icons"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:60
+msgid "Social Icons Options"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:67
+msgid "Social Icons Style"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:71
+msgid "Style Two(Rounded)"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:79
+#: elementor/widgets/windfall-social-icons.php:154
+#: inc/custom-shortcodes/theme-shortcodes.php:162
+msgid "Social Title"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:82
+msgid "Type social icons title here"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:83
+msgid "Stay connected: "
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:117
+msgid "Select Icon"
+msgstr ""
+
+#: elementor/widgets/windfall-social-icons.php:127
+#: inc/custom-shortcodes/theme-shortcodes.php:221
+msgid "Icon Link"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:24
+msgid "Special Offer"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:60
+msgid "Special Offer Options"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:67
+msgid "Listing Type"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:70
+msgid "Static Widget"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:71
+msgid "Product Listing"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:80
+msgid "Upload Special Offer Image"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:89
+msgid "Set your offer image."
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:95
+#: elementor/widgets/windfall-special-offer.php:97
+msgid "Special Offer Title"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:98
+msgid "Type offer title text here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:125
+msgid "Special Offer Content"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:127
+msgid "Type offer content here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:137
+msgid "Special Offer Tag"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:139
+msgid "Type offer item tag text here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:149
+msgid "Tag Icon"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:162
+msgid "Special Offer Discount Percentage"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:164
+msgid "Type offer percentage here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:174
+msgid "Special Offer Discount Text"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:176
+msgid "Type offer discount text here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:186
+msgid "Special Offer Actual Price"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:188
+msgid "Type offer actual price here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:198
+msgid "Special Offer Sale Price"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:200
+msgid "Type offer sale price here"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:211
+msgid "Button Type"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:214
+msgid "Custom Button"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:215
+msgid "Shortcode Button"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:255
+msgid "Add Button Shortcode"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:258
+msgid "[add_to_cart id=\"18\" quantity=\"1\"]"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:262
+msgid ""
+"Eg: [add_to_cart id=\"18\" quantity=\"1\"] <br> For reference <a "
+"href=\"https://docs.woocommerce.com/document/woocommerce-shortcodes/"
+"#section-15\" target=\"_blank\">Woocommerce Docs</a>"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:451
+msgid "Tag"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:489
+msgid "Regular Price"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:504
+msgid "Regular Price Color"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:517
+msgid "Sale Price"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:532
+msgid "Sale Price Color"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:545
+msgid "Discount Box"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:555
+msgid "Percentage Typography"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:563
+msgid "Discount Text Typography"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:847
+msgid "Sold"
+msgstr ""
+
+#: elementor/widgets/windfall-special-offer.php:849
+msgid "Sale!"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:27
+msgid "Team"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:62
+msgid "Team Options"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:68
+#: elementor/widgets/windfall-testimonial-carousel.php:112
+msgid "Listing"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:91
+msgid "Column Four"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:95
+msgid "Select your team column."
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:101
+#: elementor/widgets/windfall-testimonial-carousel.php:120
+msgid "Limit"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:114
+#: elementor/widgets/windfall-testimonial-carousel.php:133
+msgid "DESC"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:115
+#: elementor/widgets/windfall-testimonial-carousel.php:134
+msgid "ASC"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:129
+#: elementor/widgets/windfall-team.php:161
+#: elementor/widgets/windfall-testimonial-carousel.php:147
+#: elementor/widgets/windfall-testimonial-carousel.php:389
+#: inc/widgets/windfall-testimonial-widget.php:58
+#: inc/widgets/windfall-widgets.php:77
+msgid "Name"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:131
+#: elementor/widgets/windfall-testimonial-carousel.php:149
+msgid "Rand"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:132
+#: elementor/widgets/windfall-testimonial-carousel.php:150
+msgid "Menu Order"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:215
+msgid "Profession"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:252
+msgid "Contact Links"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:266
+msgid "Link Icon Color"
+msgstr ""
+
+#: elementor/widgets/windfall-team.php:383
+msgid "Meet me on:"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:27
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:61
+msgid "Testimonial Options"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:68
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:76
+msgid "Select testimonial Style"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:95
+#: inc/widgets/windfall-contact.php:26
+msgid "Background Image"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:292
+msgid "Area"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:327
+msgid "Testimonial Title"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:357
+msgid "Testimonial Item"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:443
+msgid "Location Text"
+msgstr ""
+
+#: elementor/widgets/windfall-testimonial-carousel.php:472
+msgid "Content Text"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:24
+msgid "Thankyou Message"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:60
+msgid "Thankyou Options"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:77
+msgid "Thankyou Title"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:79
+msgid "Thank You!"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:95
+msgid "Button Link Type"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:98
+msgid "History Link"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:99
+msgid "Custom Link"
+msgstr ""
+
+#: elementor/widgets/windfall-thankyou.php:102
+msgid "Select your button link type."
+msgstr ""
+
+#: inc/breadcrumb-trail.php:244
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:246
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:248
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:709
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:726
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:743
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:759 inc/breadcrumb-trail.php:788
+#: inc/breadcrumb-trail.php:815 inc/breadcrumb-trail.php:842
+#: inc/breadcrumb-trail.php:1177
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:760 inc/breadcrumb-trail.php:816
+#: inc/breadcrumb-trail.php:1181
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:761 inc/breadcrumb-trail.php:1185
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:789
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/custom-post-type.php:26 inc/custom-post-type.php:120
+#: inc/custom-post-type.php:210
+#, php-format
+msgid "%s Post"
+msgstr ""
+
+#: inc/custom-post-type.php:27
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: inc/custom-post-type.php:28 inc/custom-post-type.php:122
+#: inc/custom-post-type.php:212
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-post-type.php:29 inc/custom-post-type.php:123
+#: inc/custom-post-type.php:213
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: inc/custom-post-type.php:30 inc/custom-post-type.php:124
+#: inc/custom-post-type.php:214
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-post-type.php:31 inc/custom-post-type.php:125
+#: inc/custom-post-type.php:215
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/custom-post-type.php:32 inc/custom-post-type.php:126
+#: inc/custom-post-type.php:216
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/custom-post-type.php:33 inc/custom-post-type.php:127
+#: inc/custom-post-type.php:217
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: inc/custom-post-type.php:34 inc/custom-post-type.php:128
+#: inc/custom-post-type.php:218
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: inc/custom-post-type.php:35 inc/custom-post-type.php:129
+#: inc/custom-post-type.php:219
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: inc/custom-post-type.php:36 inc/custom-post-type.php:130
+#: inc/custom-post-type.php:220
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: inc/custom-post-type.php:81 inc/custom-post-type.php:170
+#: inc/custom-post-type.php:259
+#, php-format
+msgid "%s Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:82 inc/custom-post-type.php:171
+#: inc/custom-post-type.php:260
+#, php-format
+msgid "%s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:83 inc/custom-post-type.php:172
+#: inc/custom-post-type.php:261
+#, php-format
+msgid "Search %s Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:84 inc/custom-post-type.php:173
+#: inc/custom-post-type.php:262
+#, php-format
+msgid "All %s Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:85 inc/custom-post-type.php:174
+#: inc/custom-post-type.php:263
+#, php-format
+msgid "Parent %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:86 inc/custom-post-type.php:175
+#: inc/custom-post-type.php:264
+#, php-format
+msgid "Parent %s Category:"
+msgstr ""
+
+#: inc/custom-post-type.php:87 inc/custom-post-type.php:176
+#: inc/custom-post-type.php:265
+#, php-format
+msgid "Edit %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:88 inc/custom-post-type.php:177
+#: inc/custom-post-type.php:266
+#, php-format
+msgid "Update %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:89 inc/custom-post-type.php:178
+#: inc/custom-post-type.php:267
+#, php-format
+msgid "Add New %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:90 inc/custom-post-type.php:179
+#: inc/custom-post-type.php:268
+#, php-format
+msgid "New %s Category Name"
+msgstr ""
+
+#: inc/custom-post-type.php:121 inc/custom-post-type.php:211
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/custom-post-type.php:388
+#, php-format
+msgid "Show All %s"
+msgstr ""
+
+#: inc/custom-post-type.php:420
+msgid "Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:485
+msgid "Testimonial ID"
+msgstr ""
+
+#: inc/custom-post-type.php:554
+msgid "Member ID"
+msgstr ""
+
+#: inc/custom-post-type.php:555 inc/theme-metabox.php:554
+msgid "Job Position"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:31
+msgid "Free Trial"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:39
+#: inc/custom-shortcodes/theme-shortcodes.php:126
+#: inc/custom-shortcodes/theme-shortcodes.php:157
+#: inc/custom-shortcodes/theme-shortcodes.php:238
+#: inc/custom-shortcodes/theme-shortcodes.php:308
+#: inc/custom-shortcodes/theme-shortcodes.php:426
+#: inc/custom-shortcodes/theme-shortcodes.php:453
+#: inc/custom-shortcodes/theme-shortcodes.php:480
+#: inc/custom-shortcodes/theme-shortcodes.php:512
+msgid "Custom Class"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:44
+#: inc/custom-shortcodes/theme-shortcodes.php:334
+#: inc/custom-shortcodes/theme-shortcodes.php:518
+msgid "Text Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:62
+#: inc/custom-shortcodes/theme-shortcodes.php:244
+msgid "Button Text Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:73
+#: inc/custom-shortcodes/theme-shortcodes.php:255
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:84
+#: inc/custom-shortcodes/theme-shortcodes.php:266
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:101
+msgid "Text Block"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:167
+msgid "Title Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:230
+msgid "Header Button"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:277
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:300
+msgid "Contact Info"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:355
+#: inc/custom-shortcodes/theme-shortcodes.php:539
+msgid "Link Text Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:366
+#: inc/custom-shortcodes/theme-shortcodes.php:550
+msgid "Link Text Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:378
+msgid "Upload Type"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:436
+msgid "Image Link"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:504
+msgid "Footer Contact Info"
+msgstr ""
+
+#: inc/theme-metabox.php:28
+msgid "No templates found"
+msgstr ""
+
+#: inc/theme-metabox.php:36
+msgid "Page Layout"
+msgstr ""
+
+#: inc/theme-metabox.php:50
+msgid "Page Layout Options"
+msgstr ""
+
+#: inc/theme-metabox.php:62
+msgid "Sidebar Widget"
+msgstr ""
+
+#: inc/theme-metabox.php:64
+msgid "Select Widget"
+msgstr ""
+
+#: inc/theme-metabox.php:70
+msgid "Sidebar Type"
+msgstr ""
+
+#: inc/theme-metabox.php:88
+msgid "Page Custom Options"
+msgstr ""
+
+#: inc/theme-metabox.php:97
+msgid "Topbar"
+msgstr ""
+
+#: inc/theme-metabox.php:104 inc/theme-metabox.php:141
+msgid "Select Header Design"
+msgstr ""
+
+#: inc/theme-metabox.php:116
+msgid "Top Left"
+msgstr ""
+
+#: inc/theme-metabox.php:123
+msgid "Top Right"
+msgstr ""
+
+#: inc/theme-metabox.php:134
+msgid "Header"
+msgstr ""
+
+#: inc/theme-metabox.php:149
+msgid ""
+"Select your header design, following options will may differ based on your "
+"selection of header design."
+msgstr ""
+
+#: inc/theme-metabox.php:154
+msgid "Fullwidth Menu Bar"
+msgstr ""
+
+#: inc/theme-metabox.php:165
+msgid "Choose Menu"
+msgstr ""
+
+#: inc/theme-metabox.php:166
+msgid "Choose custom menus for this page."
+msgstr ""
+
+#: inc/theme-metabox.php:168
+msgid "Select your menu"
+msgstr ""
+
+#: inc/theme-metabox.php:173
+msgid "One Page Scroll Menu"
+msgstr ""
+
+#: inc/theme-metabox.php:174 inc/theme-metabox.php:304
+#: inc/theme-metabox.php:357 inc/theme-metabox.php:363
+#: inc/theme-metabox.php:379 inc/theme-metabox.php:385
+msgid "Yes, Please do it."
+msgstr ""
+
+#: inc/theme-metabox.php:179
+msgid "Search Icon"
+msgstr ""
+
+#: inc/theme-metabox.php:193
+msgid "Banner & Title Area"
+msgstr ""
+
+#: inc/theme-metabox.php:200
+msgid "Choose Banner Type"
+msgstr ""
+
+#: inc/theme-metabox.php:211
+msgid "Elementor Templates"
+msgstr ""
+
+#: inc/theme-metabox.php:212
+msgid "Choose template for this page."
+msgstr ""
+
+#: inc/theme-metabox.php:214
+msgid "Select your template"
+msgstr ""
+
+#: inc/theme-metabox.php:220
+msgid "Revolution Slider or Any Shortcodes"
+msgstr ""
+
+#: inc/theme-metabox.php:221
+msgid ""
+"Enter any shortcodes that you want to show in this page title area. <br /"
+">Eg : Revolution Slider shortcode."
+msgstr ""
+
+#: inc/theme-metabox.php:223
+msgid "Enter your shortcode..."
+msgstr ""
+
+#: inc/theme-metabox.php:230
+msgid "Custom Title"
+msgstr ""
+
+#: inc/theme-metabox.php:232
+msgid "Enter your custom title..."
+msgstr ""
+
+#: inc/theme-metabox.php:240
+msgid "Spaces & Background Options"
+msgstr ""
+
+#: inc/theme-metabox.php:246
+msgid "Title Area Spacings"
+msgstr ""
+
+#: inc/theme-metabox.php:248 inc/theme-metabox.php:323
+msgid "Default Spacing"
+msgstr ""
+
+#: inc/theme-metabox.php:249 inc/theme-metabox.php:324
+msgid "Extra Small Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:250 inc/theme-metabox.php:325
+msgid "Small Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:251 inc/theme-metabox.php:326
+msgid "Medium Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:252 inc/theme-metabox.php:327
+msgid "Large Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:253 inc/theme-metabox.php:328
+msgid "Extra Large Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:254 inc/theme-metabox.php:329
+msgid "No Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:255 inc/theme-metabox.php:330
+msgid "Custom Padding"
+msgstr ""
+
+#: inc/theme-metabox.php:262
+msgid "Title Bar Top & Bottom Space"
+msgstr ""
+
+#: inc/theme-metabox.php:291
+msgid "Background Size"
+msgstr ""
+
+#: inc/theme-metabox.php:303
+msgid "Hide Overlay"
+msgstr ""
+
+#: inc/theme-metabox.php:314
+msgid "Content Options"
+msgstr ""
+
+#: inc/theme-metabox.php:321
+msgid "Content Spacings"
+msgstr ""
+
+#: inc/theme-metabox.php:332
+msgid "Content area top and bottom spacings."
+msgstr ""
+
+#: inc/theme-metabox.php:337
+msgid "Content Top & Bottom Space"
+msgstr ""
+
+#: inc/theme-metabox.php:356
+msgid "Hide Header"
+msgstr ""
+
+#: inc/theme-metabox.php:362
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: inc/theme-metabox.php:368
+msgid "Above Footer Widget"
+msgstr ""
+
+#: inc/theme-metabox.php:378
+msgid "Hide Footer"
+msgstr ""
+
+#: inc/theme-metabox.php:384
+msgid "Hide Copyright"
+msgstr ""
+
+#: inc/theme-metabox.php:410
+msgid "Choose Gallery Type"
+msgstr ""
+
+#: inc/theme-metabox.php:412
+msgid "Standard Image"
+msgstr ""
+
+#: inc/theme-metabox.php:414
+msgid "Video"
+msgstr ""
+
+#: inc/theme-metabox.php:415
+msgid "link"
+msgstr ""
+
+#: inc/theme-metabox.php:424
+msgid "Video URL"
+msgstr ""
+
+#: inc/theme-metabox.php:430
+msgid "URL"
+msgstr ""
+
+#: inc/theme-metabox.php:437
+msgid ""
+"There is no Extra Option for this image type! Upload Featured Image only."
+msgstr ""
+
+#: inc/theme-metabox.php:446
+msgid "Slider Images"
+msgstr ""
+
+#: inc/theme-metabox.php:448
+msgid "Add Image(s)"
+msgstr ""
+
+#: inc/theme-metabox.php:449
+msgid "Edit Image(s)"
+msgstr ""
+
+#: inc/theme-metabox.php:450
+msgid "Clear Image(s)"
+msgstr ""
+
+#: inc/theme-metabox.php:462
+msgid "Post Options"
+msgstr ""
+
+#: inc/theme-metabox.php:478
+msgid "There is no Extra Option for this Post Format!"
+msgstr ""
+
+#: inc/theme-metabox.php:489
+msgid "Testimonial Client"
+msgstr ""
+
+#: inc/theme-metabox.php:504
+msgid "Location"
+msgstr ""
+
+#: inc/theme-metabox.php:506
+msgid "Eg : California"
+msgstr ""
+
+#: inc/theme-metabox.php:508 inc/theme-metabox.php:517
+msgid "Enter job position in your company."
+msgstr ""
+
+#: inc/theme-metabox.php:515 inc/theme-metabox.php:557
+msgid "Eg : Financial Manager"
+msgstr ""
+
+#: inc/theme-metabox.php:522
+msgid "Testimonial Ratings"
+msgstr ""
+
+#: inc/theme-metabox.php:525
+msgid "2"
+msgstr ""
+
+#: inc/theme-metabox.php:526
+msgid "3"
+msgstr ""
+
+#: inc/theme-metabox.php:527
+msgid "4"
+msgstr ""
+
+#: inc/theme-metabox.php:528
+msgid "5"
+msgstr ""
+
+#: inc/theme-metabox.php:540
+msgid "Team Member Details"
+msgstr ""
+
+#: inc/theme-metabox.php:559
+msgid "Enter this employee job position, in your company."
+msgstr ""
+
+#: inc/theme-metabox.php:565
+msgid "Contact Details"
+msgstr ""
+
+#: inc/theme-metabox.php:572
+msgid "Enter your title"
+msgstr ""
+
+#: inc/theme-metabox.php:577
+msgid "Selected your contact icon"
+msgstr ""
+
+#: inc/theme-metabox.php:582
+msgid "Enter your text"
+msgstr ""
+
+#: inc/theme-metabox.php:587
+msgid "Enter your link"
+msgstr ""
+
+#: inc/theme-metabox.php:603
+msgid "Selected your icon"
+msgstr ""
+
+#: inc/theme-metabox.php:608
+msgid "Enter your icon link"
+msgstr ""
+
+#: inc/widgets/brochure-widget.php:13
+msgid ": Brochure Widget"
+msgstr ""
+
+#: inc/widgets/brochure-widget.php:15
+msgid " widget that displays Brochure."
+msgstr ""
+
+#: inc/widgets/widget-extra-fields.php:15
+msgid "Custom Class:"
+msgstr ""
+
+#: inc/widgets/widget-extra-fields.php:17
+msgid "Add your custom classes."
+msgstr ""
+
+#: inc/widgets/windfall-accordion-widget.php:20
+msgid ": Accordion Widget"
+msgstr ""
+
+#: inc/widgets/windfall-accordion-widget.php:22
+msgid " widget that displays Accordion."
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:13
+msgid ": Contact Widget"
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:15
+msgid " widget that displays Contact."
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:36
+msgid "Call Text"
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:41
+msgid "Phone Number"
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:46
+msgid "Phone Link"
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:51
+msgid "Mail ID"
+msgstr ""
+
+#: inc/widgets/windfall-contact.php:56
+msgid "Mail Link"
+msgstr ""
+
+#: inc/widgets/windfall-intro-widget.php:20
+msgid ": Intro Widget(Above Footer)"
+msgstr ""
+
+#: inc/widgets/windfall-intro-widget.php:22
+msgid " widget that displays Intro items."
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:15
+msgid ": Testimonial Widget"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:17
+msgid " widget that displays testimonial carousel."
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:28
+msgid "Testimonial Limit"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:37
+msgid "Display Author :"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:47
+#: inc/widgets/windfall-widgets.php:66
+msgid "Select Order"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:48
+#: inc/widgets/windfall-widgets.php:67
+msgid "Order :"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:59
+#: inc/widgets/windfall-widgets.php:78
+msgid "Type"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:61
+#: inc/widgets/windfall-widgets.php:80
+msgid "Modified"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:62
+#: inc/widgets/windfall-widgets.php:81
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:64
+#: inc/widgets/windfall-widgets.php:83
+msgid "Select OrderBy"
+msgstr ""
+
+#: inc/widgets/windfall-testimonial-widget.php:65
+#: inc/widgets/windfall-widgets.php:84
+msgid "OrderBy :"
+msgstr ""
+
+#: inc/widgets/windfall-text-widget.php:13
+msgid ": Text Widget"
+msgstr ""
+
+#: inc/widgets/windfall-text-widget.php:15
+msgid " widget that displays contents."
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:15
+msgid ": Latest Posts"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:17
+msgid " widget that displays recent posts."
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:29
+msgid "Post Type :"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:30
+msgid "Select Post Type"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:35
+msgid "Webinars Limit"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:44
+msgid "Display Date :"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:50
+msgid "Date Format :"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:51
+msgid ""
+"Enter date format (for more info <a href='https://codex.wordpress.org/"
+"Formatting_Date_and_Time' target='_blank'>click here</a>)."
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:56
+msgid "Category :"
+msgstr ""
+
+#: inc/widgets/windfall-widgets.php:57
+msgid "Enter category slugs with comma(,) for multiple items"
+msgstr ""
+
+#: windfall-core.php:199
+msgid "Share this post?"
+msgstr ""
+
+#: windfall-core.php:201 windfall-core.php:222
+msgid "Share On"
+msgstr ""
+
+#: windfall-core.php:240
+msgid "Share This Post On"
+msgstr ""
+
+#: windfall-core.php:409
+msgid "Problem in Registration . "
+msgstr ""
+
+#: windfall-core.php:476
+msgid "Enter your First name"
+msgstr ""
+
+#: windfall-core.php:479
+msgid "Enter your Last name"
+msgstr ""
+
+#: windfall-core.php:482
+msgid "First name and last name cannot be same"
+msgstr ""
+
+#: windfall-core.php:485
+msgid "Enter your password"
+msgstr ""
+
+#: windfall-core.php:488
+msgid "Password must be more than 6 characters"
+msgstr ""
+
+#: windfall-core.php:491
+msgid "Password and confirm password does not match!"
+msgstr ""
+
+#: windfall-core.php:494
+msgid "Enter valid email"
+msgstr ""
+
+#: windfall-core.php:497
+msgid "Email Already in use"
+msgstr ""
+
+#: windfall-core.php:500
+msgid "Agree is required"
+msgstr ""
+
+#: windfall-core.php:507
+msgid "ERROR"
+msgstr ""
+
+#: windfall-core.php:602
+msgid ""
+"Import process may take 2-4 minutes, please be patient. It's really based on "
+"your network speed."
+msgstr ""
+
+#: windfall-core.php:672 windfall-core.php:673
+msgid "Install Demos"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://victorthemes.com/wp-themes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin to contain shortcodes and custom post types of the windfall theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VictorThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://victorthemes.com/wp-themes/windfall"
+msgstr ""
