@@ -1,0 +1,135 @@
+{
+    "wizard": {
+        "title": "My Multi Step Form",
+        "steps": [
+            {
+                "title": "Step 1",
+                "headline": "",
+                "copy_text": "",
+                "parts": [
+                    {
+                        "title": "Personal Information",
+                        "blocks": [
+                            {
+                                "type": "text",
+                                "label": "First Name",
+                                "required": "true"
+                            },
+                            {
+                                "type": "text",
+                                "label": "Last Name",
+                                "required": "false"
+                            },
+                            {
+                                "type": "email",
+                                "label": "Email",
+                                "required": "true"
+                            },
+                            {
+                                "type": "text",
+                                "label": "Phone No",
+                                "required": "false"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Step 2",
+                "headline": "",
+                "copy_text": "",
+                "parts": [
+                    {
+                        "title": "Describe Your Building Type & Address",
+                        "blocks": [
+                            {
+                                "type": "textarea",
+                                "label": "Building Information",
+                                "required": "false"
+                            },
+                            {
+                                "type": "text",
+                                "label": "Street",
+                                "required": "false"
+                            },
+                            {
+                                "type": "text",
+                                "label": "City",
+                                "required": "false"
+                            },
+                            {
+                                "type": "text",
+                                "label": "State",
+                                "required": "false"
+                            },
+                            {
+                                "type": "text",
+                                "label": "Postal Code",
+                                "required": "false"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Step 3",
+                "headline": "",
+                "copy_text": "",
+                "parts": [
+                    {
+                        "title": "Work Information",
+                        "blocks": [
+                            {
+                                "type": "radio",
+                                "elements": [
+                                    {
+                                        "type": "header",
+                                        "value": "Needed Services"
+                                    },
+                                    {
+                                        "type": "option",
+                                        "value": "Electrical"
+                                    },
+                                    {
+                                        "type": "option",
+                                        "value": "Plumbing"
+                                    },
+                                    {
+                                        "type": "option",
+                                        "value": "Maintenance"
+                                    },
+                                    {
+                                        "type": "option",
+                                        "value": "Safety Measures"
+                                    }
+                                ],
+                                "required": "true",
+                                "multichoice": "true"
+                            },
+                            {
+                                "type": "textarea",
+                                "label": "Additional Information",
+                                "required": "false"
+                            },
+                            {
+                                "type": "date",
+                                "label": "Preferred Date",
+                                "required": "false",
+                                "format": "yy-mm-dd"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "settings": {
+            "thankyou": "https:\/\/victorthemes.com\/themes\/windfall\/thank-you\/",
+            "to": "obiratheme01@gmail.com",
+            "frommail": "",
+            "fromname": "Windfall Service Request Form",
+            "subject": "Request Service Quote",
+            "header": "",
+            "headers": ""
+        }
+    }
+}
