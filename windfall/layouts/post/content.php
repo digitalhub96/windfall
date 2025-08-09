@@ -29,19 +29,19 @@ if ($windfall_blog_aqr) {
 } else {
 	if ($windfall_blog_style === 'style-two') {
 		if ($windfall_blog_columns === 'col-2') {
-	    if(class_exists('Aq_Resize')) {
-	      $blog_img = aq_resize( $windfall_large_image, '570', '370', true );
+	    if(function_exists('windfall_secure_resize')) {
+	      $blog_img = windfall_secure_resize( $windfall_large_image, '570', '370', true );
 	    } else {$blog_img = $windfall_large_image;}
 	    $featured_img = ( $blog_img ) ? $blog_img : esc_url(WINDFALL_IMAGES) . '/holders/570x370.png';
 		} else {
-	  	if(class_exists('Aq_Resize')) {
-				$blog_img = aq_resize( $windfall_large_image, '370', '220', true );
+		if(function_exists('windfall_secure_resize')) {
+				$blog_img = windfall_secure_resize( $windfall_large_image, '370', '220', true );
 	    } else {$blog_img = $windfall_large_image;}
 			$featured_img = ( $blog_img ) ? $blog_img : esc_url(WINDFALL_IMAGES) . '/holders/370x220.png';
 		}
 	} else {
-		if(class_exists('Aq_Resize')) {
-			$blog_img = aq_resize( $windfall_large_image, '828', '490', true );
+		if(function_exists('windfall_secure_resize')) {
+			$blog_img = windfall_secure_resize( $windfall_large_image, '828', '490', true );
 	   } else {$blog_img = $windfall_large_image;}
 		$featured_img = ( $blog_img ) ? $blog_img : $windfall_large_image;
 	}

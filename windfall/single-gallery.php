@@ -95,8 +95,8 @@ if($relatedPosts->have_posts()){
 						$relatedPosts->the_post();
 			      $related_large_image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'fullsize', false, '' );
 			      $related_large_image = $related_large_image[0];
-			    	if(class_exists('Aq_Resize')) {
-							$related_img = aq_resize( $related_large_image, '370', '260', true );
+				if(function_exists('windfall_secure_resize')) {
+							$related_img = windfall_secure_resize( $related_large_image, '370', '260', true );
 				    } else {$related_img = $related_large_image;}
 						$related_featured_img = ( $related_img ) ? $related_img : $related_large_image; ?>
 						<div class="masonry-item">

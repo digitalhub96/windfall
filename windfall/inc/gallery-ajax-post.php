@@ -52,8 +52,8 @@ if (!function_exists('windfall_gallery_ajax')) {
           $large_image = $large_image[0];
           $alt = get_post_meta(get_post_thumbnail_id(get_the_ID()), '_wp_attachment_image_alt', true);
           if(!$hide_resizer) {
-            if(class_exists('Aq_Resize')) {
-              $galry_img = aq_resize( $large_image, '380', '317', true );
+            if(function_exists('windfall_secure_resize')) {
+              $galry_img = windfall_secure_resize( $large_image, '380', '317', true );
             } else {$galry_img = $large_image;}
             $featured_img = ( $galry_img ) ? $galry_img : esc_url(WINDFALL_IMAGES) . '/holders/380x317.png';
           } else {
@@ -94,8 +94,8 @@ if (!function_exists('windfall_gallery_ajax')) {
           $large_image =  wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'fullsize', false, '' );
           $large_image = $large_image[0];
           if(!$hide_resizer) {
-            if(class_exists('Aq_Resize')) {
-              $galry_img = aq_resize( $large_image, '370', '260', true );
+            if(function_exists('windfall_secure_resize')) {
+              $galry_img = windfall_secure_resize( $large_image, '370', '260', true );
             } else {$galry_img = $large_image;}
             $featured_img = ( $galry_img ) ? $galry_img : esc_url(WINDFALL_IMAGES) . '/holders/370x260.png';
           } else {
@@ -128,8 +128,8 @@ if (!function_exists('windfall_gallery_ajax')) {
                   $image_alt = get_post_meta($imagee, '_wp_attachment_image_alt', true);
                   $g_img = $image[0];
                   if(!$hide_resizer) {
-                    if(class_exists('Aq_Resize')) {
-                      $slider_img = aq_resize( $g_img, '370', '260', true );
+                    if(function_exists('windfall_secure_resize')) {
+                      $slider_img = windfall_secure_resize( $g_img, '370', '260', true );
                     } else {$slider_img = $g_img;}
                     $slider_actual_img = ( $slider_img ) ? $slider_img : esc_url(WINDFALL_IMAGES) . '/holders/370x260.png';
                   } else {
@@ -295,8 +295,8 @@ if (!function_exists('windfall_more_gallery_ajax_pagi')) {
           $large_image = $large_image[0];
           $alt = get_post_meta(get_post_thumbnail_id(get_the_ID()), '_wp_attachment_image_alt', true);
           if(!$hide_resizer) {
-            if(class_exists('Aq_Resize')) {
-              $galry_img = aq_resize( $large_image, '380', '317', true );
+            if(function_exists('windfall_secure_resize')) {
+              $galry_img = windfall_secure_resize( $large_image, '380', '317', true );
             } else {$galry_img = $large_image;}
             $featured_img = ( $galry_img ) ? $galry_img : esc_url(WINDFALL_IMAGES) . '/holders/380x317.png';
           } else {
@@ -336,8 +336,8 @@ if (!function_exists('windfall_more_gallery_ajax_pagi')) {
           $large_image =  wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'fullsize', false, '' );
           $large_image = $large_image[0];
           if(!$hide_resizer) {
-            if(class_exists('Aq_Resize')) {
-              $galry_img = aq_resize( $large_image, '370', '260', true );
+            if(function_exists('windfall_secure_resize')) {
+              $galry_img = windfall_secure_resize( $large_image, '370', '260', true );
             } else {$galry_img = $large_image;}
             $featured_img = ( $galry_img ) ? $galry_img : esc_url(WINDFALL_IMAGES) . '/holders/370x260.png';
           } else {
@@ -370,8 +370,8 @@ if (!function_exists('windfall_more_gallery_ajax_pagi')) {
                   $image_alt = get_post_meta($imagee, '_wp_attachment_image_alt', true);
                   $g_img = $image[0];
                   if(!$hide_resizer) {
-                    if(class_exists('Aq_Resize')) {
-                      $slider_img = aq_resize( $g_img, '370', '260', true );
+                    if(function_exists('windfall_secure_resize')) {
+                      $slider_img = windfall_secure_resize( $g_img, '370', '260', true );
                     } else {$slider_img = $g_img;}
                     $slider_actual_img = ( $slider_img ) ? $slider_img : esc_url(WINDFALL_IMAGES) . '/holders/370x260.png';
                   } else {

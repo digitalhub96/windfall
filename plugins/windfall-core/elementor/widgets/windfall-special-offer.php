@@ -759,8 +759,8 @@ class Windfall_Special_Offer extends Widget_Base{
 	  if($disable_resizer) {
 	  	$featured_img_actual = $image_url;
 	  } else {
-	  	if(class_exists('Aq_Resize')) {
-        $image_url = aq_resize( $image_url, '585', '434', true );
+		if(function_exists('windfall_secure_resize')) {
+        $image_url = windfall_secure_resize( $image_url, '585', '434', true );
       } else {$image_url = $image_url;}
       $featured_img_actual = ( $image_url ) ? $image_url : WINDFALL_IMAGES . '/holders/585x434.png';
 	  }

@@ -68,11 +68,6 @@ if (is_plugin_active('windfall-core/windfall-core.php')) {
 	// Custom Post Type
 	require_once( WINDFALL_PLUGIN_INC . '/custom-post-type.php' );
 
-  // Aq Resizer
-  $img_resizer = cs_get_option('theme_img_resizer');
-  if(!$img_resizer) {
-    require_once( WINDFALL_PLUGIN_INC . '/aq_resizer.php' );
-  }
 
   if( class_exists( 'CSF' ) ) {
     require_once( WINDFALL_PLUGIN_INC . '/theme-metabox.php' );
@@ -738,3 +733,110 @@ function ocdi_plugin_intro_text( $default_text ) {
   return $default_text;
 }
 add_filter( 'pt-ocdi/plugin_intro_text', 'ocdi_plugin_intro_text' );
+
+if(!function_exists('windfall_secure_resize')) {
+    function windfall_secure_resize( $url, $width = null, $height = null, $crop = null, $single = true, $upscale = false ) {
+        // Validate inputs.
+        if (!$url || !$width || !$height) {
+            return false;
+        }
+
+        // Get upload directory info
+        $upload_info = wp_upload_dir();
+        $upload_dir = $upload_info['basedir'];
+        $upload_url = $upload_info['baseurl'];
+
+        // Check if $img_url is local.
+        if (strpos($url, $upload_url) === false) {
+            // Check if the URL is relative
+            if ( strpos( $url, '/' ) === 0 ) {
+                $url = get_site_url() . $url;
+            } else {
+                 return $url; // or return false, depending on how you want to handle external images.
+            }
+        }
+
+
+        // Get path of image.
+        $rel_path = str_replace($upload_url, '', $url);
+        // Sometimes the rel_path still contains the full URL, so we need to clean it up
+        if ( strpos( $rel_path, 'http' ) === 0 ) {
+            $rel_path = preg_replace( '#^https?://[^/]+#', '', $rel_path );
+        }
+        $img_path = $upload_dir . $rel_path;
+
+        // Check if image file exists.
+        if (!file_exists($img_path) || !getimagesize($img_path)) {
+            return $url;
+        }
+
+        // Get image info.
+        $info = pathinfo($img_path);
+        $ext = $info['extension'];
+        list($orig_w, $orig_h) = getimagesize($img_path);
+
+        // Get image size after cropping.
+        $dims = image_resize_dimensions($orig_w, $orig_h, $width, $height, $crop);
+        if (!$dims) {
+            return $url;
+        }
+        $dst_w = $dims[4];
+        $dst_h = $dims[5];
+
+        // Suffix for new file name.
+        $suffix = "{$dst_w}x{$dst_h}";
+
+        // Composing new file name.
+        $dst_rel_path = str_replace('.' . $ext, '', $rel_path);
+        $destfilename = "{$upload_dir}{$dst_rel_path}-{$suffix}.{$ext}";
+
+        // Ensure the destination directory exists
+        wp_mkdir_p(dirname($destfilename));
+
+        // If resized file already exists, return its URL.
+        if (file_exists($destfilename)) {
+            $img_url = "{$upload_url}{$dst_rel_path}-{$suffix}.{$ext}";
+            if ($single) {
+                return $img_url;
+            }
+            return array(
+                0 => $img_url,
+                1 => $dst_w,
+                2 => $dst_h
+            );
+        }
+
+        // Load image editor
+        $editor = wp_get_image_editor($img_path);
+        if (is_wp_error($editor)) {
+            return $url;
+        }
+
+        // Resize the image.
+        $resize_result = $editor->resize($width, $height, $crop);
+        if (is_wp_error($resize_result)) {
+            return $url;
+        }
+
+        // Save the new image.
+        $saved_image = $editor->save($destfilename);
+
+        // If saving fails, return the original URL.
+        if (is_wp_error($saved_image)) {
+            return $url;
+        }
+
+        // Get URL of resized image.
+        $new_img_url = "{$upload_url}{$dst_rel_path}-{$suffix}.{$ext}";
+
+        if ($single) {
+            return $new_img_url;
+        }
+
+        return array(
+            0 => $new_img_url,
+            1 => $dst_w,
+            2 => $dst_h
+        );
+    }
+}

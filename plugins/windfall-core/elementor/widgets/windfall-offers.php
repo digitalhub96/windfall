@@ -673,24 +673,24 @@ class Windfall_Offer extends Widget_Base{
 		  } else {
 		  	if($offers_style === 'style-two') {
 			  	if($column === 'col-2') {
-					  if(class_exists('Aq_Resize')) {
-			        $image_url = aq_resize( $image_url, '570', '440', true );
+					  if(function_exists('windfall_secure_resize')) {
+			        $image_url = windfall_secure_resize( $image_url, '570', '440', true );
 			      } else {$image_url = $image_url;}
 			      $featured_img_actual = ( $image_url ) ? $image_url : WINDFALL_IMAGES . '/holders/570x440.png';
 					} elseif ($column === 'col-4') {
-					  if(class_exists('Aq_Resize')) {
-			        $image_url = aq_resize( $image_url, '270', '170', true );
+					  if(function_exists('windfall_secure_resize')) {
+			        $image_url = windfall_secure_resize( $image_url, '270', '170', true );
 			      } else {$image_url = $image_url;}
 			      $featured_img_actual = ( $image_url ) ? $image_url : WINDFALL_IMAGES . '/holders/270x170.png';
 					} else {
-					  if(class_exists('Aq_Resize')) {
-			        $image_url = aq_resize( $image_url, '370', '240', true );
+					  if(function_exists('windfall_secure_resize')) {
+			        $image_url = windfall_secure_resize( $image_url, '370', '240', true );
 			      } else {$image_url = $image_url;}
 			      $featured_img_actual = ( $image_url ) ? $image_url : WINDFALL_IMAGES . '/holders/370x240.png';
 					}
 				} else {
-					if(class_exists('Aq_Resize')) {
-		        $image_url = aq_resize( $image_url, '270', '180', true );
+					if(function_exists('windfall_secure_resize')) {
+		        $image_url = windfall_secure_resize( $image_url, '270', '180', true );
 		      } else {$image_url = $image_url;}
 		      $featured_img_actual = ( $image_url ) ? $image_url : WINDFALL_IMAGES . '/holders/270x180.png';
 				}

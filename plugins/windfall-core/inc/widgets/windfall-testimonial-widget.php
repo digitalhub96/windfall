@@ -119,8 +119,8 @@ if( class_exists( 'CSF' ) ) {
             $testi_position = $testimonial_options['testi_position'];
             $testi_stars = $testimonial_options['testi_rating'];
 
-            if(class_exists('Aq_Resize')) {
-              $testi_img = aq_resize( $large_image, '89', '87', true );
+            if(function_exists('windfall_secure_resize')) {
+              $testi_img = windfall_secure_resize( $large_image, '89', '87', true );
             } else {$testi_img = $large_image;}
             $testi_img_actual = ( $testi_img ) ? $testi_img : $large_image;
           ?>

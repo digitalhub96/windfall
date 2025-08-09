@@ -336,8 +336,8 @@ class Windfall_Industries extends Widget_Base{
 		if($disable_resizer) {
 	  	$featured_img_actual = $image_url;
 	  } else {
-	  	if(class_exists('Aq_Resize')) {
-        $image_url = aq_resize( $image_url, '370', '260', true );
+		if(function_exists('windfall_secure_resize')) {
+        $image_url = windfall_secure_resize( $image_url, '370', '260', true );
       } else {$image_url = $image_url;}
       $featured_img_actual = ( $image_url ) ? $image_url : WINDFALL_IMAGES . '/holders/370x260.png';
 	  }

@@ -264,8 +264,8 @@ if($testimonial_style === 'testimonial_three') { ?>
           $large_image = $large_image[0];
           $alt = get_post_meta(get_post_thumbnail_id(get_the_ID()), '_wp_attachment_image_alt', true);
           if(!$gallery_aqr) {
-            if(class_exists('Aq_Resize')) {
-              $galry_img = aq_resize( $large_image, '380', '317', true );
+            if(function_exists('windfall_secure_resize')) {
+              $galry_img = windfall_secure_resize( $large_image, '380', '317', true );
             } else {$galry_img = $large_image;}
             $featured_img = ( $galry_img ) ? $galry_img : esc_url(WINDFALL_IMAGES) . '/holders/380x317.png';
           } else {
@@ -306,8 +306,8 @@ if($testimonial_style === 'testimonial_three') { ?>
           $large_image =  wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'fullsize', false, '' );
           $large_image = $large_image[0];
           if(!$gallery_aqr) {
-            if(class_exists('Aq_Resize')) {
-              $galry_img = aq_resize( $large_image, '370', '260', true );
+            if(function_exists('windfall_secure_resize')) {
+              $galry_img = windfall_secure_resize( $large_image, '370', '260', true );
             } else {$galry_img = $large_image;}
             $featured_img = ( $galry_img ) ? $galry_img : esc_url(WINDFALL_IMAGES) . '/holders/370x260.png';
           } else {
@@ -336,8 +336,8 @@ if($testimonial_style === 'testimonial_three') { ?>
                   $image_alt = get_post_meta($imagee, '_wp_attachment_image_alt', true);
                   $g_img = $image[0];
                   if(!$gallery_aqr) {
-                    if(class_exists('Aq_Resize')) {
-                      $slider_img = aq_resize( $g_img, '370', '260', true );
+                    if(function_exists('windfall_secure_resize')) {
+                      $slider_img = windfall_secure_resize( $g_img, '370', '260', true );
                     } else {$slider_img = $g_img;}
                     $slider_actual_img = ( $slider_img ) ? $slider_img : esc_url(WINDFALL_IMAGES) . '/holders/370x260.png';
                   } else {
@@ -496,8 +496,8 @@ if($testimonial_style === 'testimonial_three') { ?>
           if ($windfall_team_aqr) {
             $team_featured_img = $large_image;
           } else {
-            if(class_exists('Aq_Resize')) {
-              $team_img = aq_resize( $large_image, '270', '220', true );
+            if(function_exists('windfall_secure_resize')) {
+              $team_img = windfall_secure_resize( $large_image, '270', '220', true );
             } else {$team_img = $large_image;}
             $team_featured_img = ( $team_img ) ? $team_img : esc_url(WINDFALL_IMAGES) . '/holders/270x220.png';
           }

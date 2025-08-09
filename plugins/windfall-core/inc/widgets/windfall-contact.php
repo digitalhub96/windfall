@@ -95,8 +95,8 @@ if( class_exists( 'CSF' ) ) {
       $content = $content ? '<li>'.$content.'</li>' : '';
 
       // BG Image
-      if(class_exists('Aq_Resize')) {
-        $contct_img = aq_resize( $image, '265', '341', true );
+      if(function_exists('windfall_secure_resize')) {
+        $contct_img = windfall_secure_resize( $image, '265', '341', true );
       } else {$contct_img = $image;}
       $contact_img = ( $contct_img ) ? $contct_img : WINDFALL_IMAGES . '/holders/265x341.png';
 

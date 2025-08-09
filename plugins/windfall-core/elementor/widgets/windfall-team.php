@@ -441,13 +441,13 @@ class Windfall_Team extends Widget_Base{
 							$team_featured_img = $large_image;
 						} else {
 							if ($team_column === 'col-3') {
-								if(class_exists('Aq_Resize')) {
-									$team_img = aq_resize( $large_image, '353', '220', true );
+								if(function_exists('windfall_secure_resize')) {
+									$team_img = windfall_secure_resize( $large_image, '353', '220', true );
 								} else {$team_img = $large_image;}
 								$team_featured_img = ( $team_img ) ? $team_img : WINDFALL_PLUGIN_ASTS . '/images/holders/353x220.png';
 							} else {
-								if(class_exists('Aq_Resize')) {
-									$team_img = aq_resize( $large_image, '270', '220', true );
+								if(function_exists('windfall_secure_resize')) {
+									$team_img = windfall_secure_resize( $large_image, '270', '220', true );
 								} else {$team_img = $large_image;}
 								$team_featured_img = ( $team_img ) ? $team_img : WINDFALL_PLUGIN_ASTS . '/images/holders/270x220.png';
 							}

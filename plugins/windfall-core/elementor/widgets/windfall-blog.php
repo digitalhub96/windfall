@@ -762,19 +762,19 @@ class Windfall_Blog extends Widget_Base{
 				} else {
 					if ($blog_style === 'style-two') {
 						if ($blog_column === 'col-2') {
-					    if(class_exists('Aq_Resize')) {
-					      $blog_img = aq_resize( $large_image, '570', '370', true );
+					    if(function_exists('windfall_secure_resize')) {
+					      $blog_img = windfall_secure_resize( $large_image, '570', '370', true );
 					    } else {$blog_img = $large_image;}
 					    $featured_img = ( $blog_img ) ? $blog_img : WINDFALL_IMAGES . '/holders/570x370.png';
 						} else {
-					  	if(class_exists('Aq_Resize')) {
-								$blog_img = aq_resize( $large_image, '370', '220', true );
+						if(function_exists('windfall_secure_resize')) {
+								$blog_img = windfall_secure_resize( $large_image, '370', '220', true );
 					    } else {$blog_img = $large_image;}
 							$featured_img = ( $blog_img ) ? $blog_img : WINDFALL_IMAGES . '/holders/370x220.png';
 						}
 					} else {
-						if(class_exists('Aq_Resize')) {
-							$blog_img = aq_resize( $large_image, '828', '490', true );
+						if(function_exists('windfall_secure_resize')) {
+							$blog_img = windfall_secure_resize( $large_image, '828', '490', true );
 					   } else {$blog_img = $large_image;}
 						$featured_img = ( $blog_img ) ? $blog_img : $large_image;
 					}
